@@ -76,5 +76,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+
+    <script src="https://use.typekit.net/dkg1wjh.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </body>
 </html>
