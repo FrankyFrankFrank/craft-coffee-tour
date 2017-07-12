@@ -29,7 +29,8 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        <img src="{{ asset('img/logo.svg') }}" alt="Dispute Bills">
+                        <!-- {{ config('app.name', 'Laravel') }} -->
                     </a>
                 </div>
 
