@@ -8350,12 +8350,26 @@ button.close {
   }
 }
 
+.yellow-bg {
+  background-color: #ecb622;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  color: #1b3365;
+  letter-spacing: 0.2rem;
   font-family: "acier-bat-solid";
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand img {
+  width: 50%;
 }
 
