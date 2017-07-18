@@ -1,0 +1,103 @@
+.banner {
+	display: flex;
+	background-image: url('/img/blue-dot-bg.png');
+
+	h1 {
+	    background: white;
+	    padding: 1.3rem;
+	    transform: rotate(-2deg);
+	}
+
+	p {
+		background: $yellow;
+		padding: 1.3rem;
+	}
+
+	&__message {
+		padding: 6rem 2rem;
+		margin-left: 5%;
+		max-width: 520px;
+		width: 100%;
+	}
+}
+
+.how-it-works {
+	margin-top: 5rem;
+    padding-bottom: 0;
+}
+
+.passport, .experience, .extra {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.passport {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	&__image {
+		width: 460px;
+		padding: 2rem;
+	}
+
+	&__description {
+		width: 460px;
+		padding: 2rem;
+		position: relative;
+	}
+}
+
+.experience {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&__image {
+		width: 100%;
+		min-width: 460px;
+		max-width: 600px;
+		padding: 2rem;
+	}
+
+	&__description {
+		max-width: 600px;
+		padding: 2rem;
+		position: relative;
+	}
+}
+
+.extras {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	&__image {
+		width: 460px;
+		padding: 2rem;
+	}
+
+	&__description {
+		width: 460px;
+		padding: 2rem;
+		position: relative;
+	}
+}
+
+.purchase {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	&__item {
+		flex-grow: 1;
+		max-width: 460px;
+		text-align: center;
+		width: 100%;
+	}
+}

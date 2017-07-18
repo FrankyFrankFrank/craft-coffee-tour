@@ -6,6 +6,9 @@ $yellow-hue: 44;
 // Body
 $body-bg: hsl($blue-hue, 2%, 95%);
 
+// Brand
+ $yellow: #ecb622;
+
 // Borders
 $laravel-border-color: darken($body-bg, 10%);
 $list-group-border: $laravel-border-color;
