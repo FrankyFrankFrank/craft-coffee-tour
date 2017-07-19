@@ -62,10 +62,13 @@
     <div class="row">
         <div class="purchase">
             <div class="purchase__item">
-                <img src="https://unsplash.it/760/360" class="img-responsive"/>
                 <h4>Purchase the Tour Guide</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h5>Craft Coffee Tour</h5>
+                <p>Includes</p>
+                <ul>
+                    <li>Tour Guide Booklet</li>
+                    <li>14 Coffee Experiences</li>
+                </ul>
                 <div class="center-block">
                 @component('components.buy-button')
                 @endcomponent
