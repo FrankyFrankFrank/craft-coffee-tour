@@ -9,8 +9,8 @@
         </p>
     </div>
 </div>
-<div class="container-fluid">
-    <div class="how-it-works row">
+<div class="container-fluid how-it-works">
+    <div class="row">
         <div class="col-md-12 text-center">
             <h2>How It Works</h2>
         </div>
@@ -56,9 +56,35 @@
     </div>
 </div>
 
+<div class="container-fluid">
+    <div class="row text-center">
+        <h3 class="flag">Crafty Add-ons</h3>
+    </div>
+    <div class="row thirty-three">
+        <div class="thirty-three__image"></div>
+        <div class="thirty-three__description">
+            <h3>Thirty-Three Coffees</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+        </div>
+    </div>
+    <div class="row thirty-three">
+        <div class="thirty-three__description">
+            <h3>Thirty-Three Coffees</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+        </div>
+        <div class="thirty-three__image"></div>
+    </div>
+</div>
+
 <div class="container-fluid grey-bg">
     <div class="row">
-        <h4 class="text-center">Three Ways to Purchase</h4>
+        <h2 class="text-center padded">Three Ways to Purchase</h2>
         <div class="purchase">
             <div class="purchase__item">
                 <h5>Craft Coffee Tour</h5>

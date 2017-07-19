@@ -22,7 +22,8 @@
 
 .how-it-works {
 	margin-top: 5rem;
-    padding-bottom: 0;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
 }
 
 .passport, .experience, .extra {
@@ -84,6 +85,34 @@
 		width: 460px;
 		padding: 2rem;
 		position: relative;
+	}
+}
+
+.flag {
+	background-color: $brand-primary;
+	color: $body-bg;
+	display: inline-block;
+	margin-bottom: 0;
+	padding: 1rem;
+    transform: translateY(28%);
+}
+
+.thirty-three {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: $yellow;
+	align-items: center;
+
+	&__image {
+		background: url('/img/33cups-large.jpg');
+		background-size: cover;
+		flex: 460px 1 1;
+		height: 300px;
+	}
+	&__description {
+		flex: 460px 1 1;
+		padding: 2rem;
 	}
 }
 

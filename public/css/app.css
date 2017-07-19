@@ -8369,9 +8369,8 @@ h6 {
   font-family: "acier-bat-solid";
 }
 
-.row {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.padded {
+  padding: 2rem;
 }
 
 .navbar {
@@ -8434,7 +8433,8 @@ h6 {
 
 .how-it-works {
   margin-top: 5rem;
-  padding-bottom: 0;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 .passport,
@@ -8523,6 +8523,46 @@ h6 {
   width: 460px;
   padding: 2rem;
   position: relative;
+}
+
+.flag {
+  background-color: #1b3365;
+  color: #f2f2f3;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 1rem;
+  -webkit-transform: translateY(28%);
+          transform: translateY(28%);
+}
+
+.thirty-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #ecb622;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thirty-three__image {
+  background: url("/img/33cups-large.jpg");
+  background-size: cover;
+  -webkit-box-flex: 460px;
+      -ms-flex: 460px 1 1;
+          flex: 460px 1 1;
+  height: 300px;
+}
+
+.thirty-three__description {
+  -webkit-box-flex: 460px;
+      -ms-flex: 460px 1 1;
+          flex: 460px 1 1;
+  padding: 2rem;
 }
 
 .purchase {
