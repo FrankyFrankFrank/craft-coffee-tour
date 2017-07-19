@@ -4,10 +4,8 @@
 <div class="banner container-fluid yellow-bg">
     <div class="banner__message">
         <h1>The Ultimate Toronto Coffee Guide</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.</p>
         <p>
-        <a class="btn btn-primary btn-lg">Join</a>
+            <a class="btn btn-primary btn-lg">Join</a>
         </p>
     </div>
 </div>
@@ -60,18 +58,47 @@
 
 <div class="container-fluid grey-bg">
     <div class="row">
+        <h4 class="text-center">Three Ways to Purchase</h4>
         <div class="purchase">
             <div class="purchase__item">
-                <h4>Purchase the Tour Guide</h4>
                 <h5>Craft Coffee Tour</h5>
-                <p>Includes</p>
                 <ul>
                     <li>Tour Guide Booklet</li>
-                    <li>14 Coffee Experiences</li>
+                    <li>14 Craft Coffee Experiences</li>
+                    <li>Audio Interviews</li>
+                    <li>In-Depth Articles on the Craft</li>
                 </ul>
+                <span class="purchase__price"><sup>$</sup>40<sub>(CAD)</sub></span>
                 <div class="center-block">
                 @component('components.buy-button')
                 @endcomponent
+                </div>
+            </div>
+            <div class="purchase__item">
+                <h5>Craft Coffee Tour<br>+ Book</h5>
+                <ul>
+                    <li>Tour Guide Booklet</li>
+                    <li>14 Craft Coffee Experiences</li>
+                    <li>Audio Interviews</li>
+                    <li>In-Depth Articles on the Craft</li>
+                    <li><strong>Coffee Diary Booklet</strong></li>
+                </ul>
+                <span class="purchase__price"><sup>$</sup>48<sub>(CAD)</sub></span>
+                <div class="center-block">
+                </div>
+            </div>
+            <div class="purchase__item">
+                <h5>Craft Coffee Tour<br>+ Book<br>+ The Roasters Pack</h5>
+                <ul>
+                    <li>Tour Guide Booklet</li>
+                    <li>14 Craft Coffee Experiences</li>
+                    <li>Audio Interviews</li>
+                    <li>In-Depth Articles on the Craft</li>
+                    <li><strong>Coffee Diary Booklet</strong></li>
+                    <li><strong>Three Months of The Roasters Pack coffee subscription service</strong></li>
+                </ul>
+                <span class="purchase__price"><sup>$</sup>110<sub>(CAD)</sub></span>
+                <div class="center-block">
                 </div>
             </div>
         </div>

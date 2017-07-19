@@ -61,14 +61,14 @@
         }
       },
       "button": {
-        "background-color": "#dd390d",
+        "background-color": "hsl(220, 58%, 25%)",
         "font-size": "15px",
         "padding-top": "15.5px",
         "padding-bottom": "15.5px",
         "padding-left": "64px",
         "padding-right": "64px",
         ":hover": {
-          "background-color": "#c7330c"
+          "background-color": "hsl(220, 58%, 10%)"
         },
         "border-radius": "2px",
         ":focus": {
