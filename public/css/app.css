@@ -8489,8 +8489,6 @@ h6 {
 
 .experience__image {
   width: 100%;
-  min-width: 460px;
-  max-width: 600px;
   padding: 2rem;
 }
 
