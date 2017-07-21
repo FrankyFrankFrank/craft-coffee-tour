@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="banner container-fluid yellow-bg">
+<div class="banner container-fluid">
     <div class="banner__message">
         <h1>The Ultimate Toronto Coffee Guide</h1>
         <p>
@@ -73,7 +73,7 @@
         <div class="description-wrapper">
             <div class="description">
                 <h3>The Roasters Pack</h3>
-                <p>Expand your coffee knowledge to all of Canada. The Roasters Pack is a monthly coffee subscription where we bring you three of the countries top roasts fresh to you in the mail. Includes tasting notes, brew guides and stories about the brews you drink.</p>
+                <p>Expand your coffee knowledge to all across Canada. The Roasters Pack is a monthly coffee subscription where we bring you three of the countries top roasts fresh to you in the mail. Includes tasting notes, brew guides and stories about the brews you drink.</p>
             </div>
         </div>
         <div class="image"></div>

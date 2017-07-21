@@ -8358,6 +8358,10 @@ button.close {
   background-color: #d7d8db;
 }
 
+.drk-blue-bg {
+  background-color: #1b3365;
+}
+
 h1,
 h2,
 h3,
@@ -8410,6 +8414,9 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
+  background-color: #1b3365;
+  background-image: url("/img/background-2.svg");
 }
 
 .banner h1 {
@@ -8420,7 +8427,6 @@ h6 {
 }
 
 .banner p {
-  background: #ecb622;
   padding: 1.3rem;
 }
 
