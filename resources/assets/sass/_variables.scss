@@ -3,8 +3,14 @@
 $blue-hue: 220;
 $yellow-hue: 44;
 
+$white-max: hsl($blue-hue, 5%, 95%);
+$white-med: hsl($blue-hue, 5%, 89%);
+$white-min: hsl($blue-hue, 5%, 83%); 
+
+$grey-med: hsl($blue-hue, 16%, 70%);
+
 // Body
-$body-bg: hsl($blue-hue, 2%, 95%);
+$body-bg: $white-max;
 
 // Brand
  $yellow: #ecb622;

@@ -9,6 +9,14 @@
         </p>
     </div>
 </div>
+<div class="container-fluid">
+    <div class="row cafe-logos">
+        <div class="cafe-logos__logo logo-pilot"></div>
+        <div class="cafe-logos__logo logo-pilot"></div>
+        <div class="cafe-logos__logo logo-pilot"></div>
+        <div class="cafe-logos__logo logo-pilot"></div>
+    </div>
+</div>
 <div class="container-fluid how-it-works">
     <div class="row">
         <div class="col-md-12 text-center">

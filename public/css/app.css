@@ -5689,7 +5689,7 @@ tbody.collapse.in {
 
 .navbar-default {
   background-color: #fff;
-  border-color: #d8d8da;
+  border-color: #d7d8db;
 }
 
 .navbar-default .navbar-brand {
@@ -5745,7 +5745,7 @@ tbody.collapse.in {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #d8d8da;
+  border-color: #d7d8db;
 }
 
 .navbar-default .navbar-nav > .open > a,
@@ -6596,7 +6596,7 @@ a.thumbnail.active {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #fff;
-  border: 1px solid #d8d8da;
+  border: 1px solid #d7d8db;
 }
 
 .list-group-item:first-child {
@@ -6879,7 +6879,7 @@ button.list-group-item-danger.active:focus {
 .panel-footer {
   padding: 10px 15px;
   background-color: #f5f5f5;
-  border-top: 1px solid #d8d8da;
+  border-top: 1px solid #d7d8db;
   border-bottom-right-radius: -1px;
   border-bottom-left-radius: -1px;
 }
@@ -7100,7 +7100,7 @@ button.list-group-item-danger.active:focus {
 
 .panel-group .panel-heading + .panel-collapse > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
-  border-top: 1px solid #d8d8da;
+  border-top: 1px solid #d7d8db;
 }
 
 .panel-group .panel-footer {
@@ -7108,21 +7108,21 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel-group .panel-footer + .panel-collapse .panel-body {
-  border-bottom: 1px solid #d8d8da;
+  border-bottom: 1px solid #d7d8db;
 }
 
 .panel-default {
-  border-color: #d8d8da;
+  border-color: #d7d8db;
 }
 
 .panel-default > .panel-heading {
   color: #333333;
   background-color: #fff;
-  border-color: #d8d8da;
+  border-color: #d7d8db;
 }
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #d8d8da;
+  border-top-color: #d7d8db;
 }
 
 .panel-default > .panel-heading .badge {
@@ -7131,7 +7131,7 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #d8d8da;
+  border-bottom-color: #d7d8db;
 }
 
 .panel-primary {
@@ -8431,10 +8431,34 @@ h6 {
 }
 
 .banner__message {
-  padding: 6rem 2rem;
+  padding: 10rem 2rem;
   margin-left: 5%;
   max-width: 520px;
   width: 100%;
+}
+
+.cafe-logos {
+  background-color: #e2e2e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3rem;
+}
+
+.cafe-logos__logo {
+  width: 140px;
+  height: 92px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cafe-logos .logo-pilot {
+  background-image: url("/img/logo-pilot.svg");
 }
 
 .how-it-works {
