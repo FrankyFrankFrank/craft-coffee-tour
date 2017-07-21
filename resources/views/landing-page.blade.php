@@ -61,21 +61,22 @@
         <h3 class="flag">Crafty Add-ons</h3>
     </div>
     <div class="row thirty-three">
-        <div class="thirty-three__image"></div>
-        <div class="thirty-three__description">
-            <h3>Thirty-Three Coffees</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+        <div class="image"></div>
+        <div class="description-wrapper">
+            <div class="description">
+                <h3>33 Cups of Coffee</h3>
+                <p>An amazing pocket-sized coffee journal that you can use to track flavour profiles, brew thoughts, tasting notes and coffee ratings!</p>
+            </div>
         </div>
     </div>
-    <div class="row thirty-three">
-        <div class="thirty-three__description">
-            <h3>The Roasters Pack</h3>
-            <p>Expand your coffee knowledge to all of Canada. The Roasters Pack is a monthly coffee subscription where we bring you three of the countries top roasts fresh to you in the mail. Includes tasting notes, brew guides and stories about the brews you drink.</p>
+    <div class="row roasters-pack">
+        <div class="description-wrapper">
+            <div class="description">
+                <h3>The Roasters Pack</h3>
+                <p>Expand your coffee knowledge to all of Canada. The Roasters Pack is a monthly coffee subscription where we bring you three of the countries top roasts fresh to you in the mail. Includes tasting notes, brew guides and stories about the brews you drink.</p>
+            </div>
         </div>
-        <div class="thirty-three__image"></div>
+        <div class="image"></div>
     </div>
 </div>
 

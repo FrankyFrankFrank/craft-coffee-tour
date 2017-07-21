@@ -102,15 +102,49 @@
 	justify-content: space-around;
 	background-color: $yellow;
 	align-items: center;
-
-	&__image {
-		background: url('/img/33cups-large.jpg');
+ 
+	.image {
+		background: url('/img/33cups.jpg');
 		background-size: cover;
 		flex: 460px 1 1;
 		height: 300px;
 	}
-	&__description {
+
+	.description-wrapper {
+		display: flex;
+		justify-content: center;
 		flex: 460px 1 1;
+	}
+
+	.description {
+		flex-basis: 460px;
+		padding: 2rem;
+	}
+}
+
+.roasters-pack {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: $yellow;
+	align-items: center;
+ 
+	.image {
+		background: url('/img/roasters-pack.jpg');
+		background-size: cover;
+		flex: 460px 1 1;
+		height: 300px;
+	}
+
+	.description-wrapper {
+		display: flex;
+		justify-content: center;
+		flex: 460px 1 1;
+		padding: 2rem;
+	}
+
+	.description {
+		flex-basis: 460px;
 		padding: 2rem;
 	}
 }
@@ -158,6 +192,14 @@
 		sub {
 			font-weight: 400;
 			font-size: 1rem;
+		}
+	}
+}
+
+@media (max-width: 920px) {
+	.roasters-pack {
+		.description-wrapper {
+			order: 1;
 		}
 	}
 }

@@ -8548,8 +8548,8 @@ h6 {
           align-items: center;
 }
 
-.thirty-three__image {
-  background: url("/img/33cups-large.jpg");
+.thirty-three .image {
+  background: url("/img/33cups.jpg");
   background-size: cover;
   -webkit-box-flex: 460px;
       -ms-flex: 460px 1 1;
@@ -8557,10 +8557,63 @@ h6 {
   height: 300px;
 }
 
-.thirty-three__description {
+.thirty-three .description-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-flex: 460px;
       -ms-flex: 460px 1 1;
           flex: 460px 1 1;
+}
+
+.thirty-three .description {
+  -ms-flex-preferred-size: 460px;
+      flex-basis: 460px;
+  padding: 2rem;
+}
+
+.roasters-pack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #ecb622;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.roasters-pack .image {
+  background: url("/img/roasters-pack.jpg");
+  background-size: cover;
+  -webkit-box-flex: 460px;
+      -ms-flex: 460px 1 1;
+          flex: 460px 1 1;
+  height: 300px;
+}
+
+.roasters-pack .description-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 460px;
+      -ms-flex: 460px 1 1;
+          flex: 460px 1 1;
+  padding: 2rem;
+}
+
+.roasters-pack .description {
+  -ms-flex-preferred-size: 460px;
+      flex-basis: 460px;
   padding: 2rem;
 }
 
@@ -8618,5 +8671,13 @@ h6 {
 .purchase__price sub {
   font-weight: 400;
   font-size: 1rem;
+}
+
+@media (max-width: 920px) {
+  .roasters-pack .description-wrapper {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
 }
 
