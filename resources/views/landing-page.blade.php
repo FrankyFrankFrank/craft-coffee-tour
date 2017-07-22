@@ -5,7 +5,8 @@
     <div class="banner__message">
         <h1>The Ultimate Toronto Coffee Guide</h1>
         <p>
-            <a class="btn btn-primary btn-lg">Join</a>
+            Get to know your city through the world-class coffees brewed right here.
+            14 stops on this bean-lovers dream tour!
         </p>
     </div>
 </div>

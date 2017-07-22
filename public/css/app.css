@@ -8420,19 +8420,24 @@ h6 {
 }
 
 .banner h1 {
-  background: white;
+  background: #f2f2f3;
   padding: 1.3rem;
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg) translateY(30%);
+          transform: rotate(-2deg) translateY(30%);
 }
 
 .banner p {
-  padding: 1.3rem;
+  background: #1b3365;
+  color: #f2f2f3;
+  padding: 4rem;
 }
 
 .banner__message {
   padding: 10rem 2rem;
-  margin-left: 5%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   max-width: 520px;
   width: 100%;
 }

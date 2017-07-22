@@ -5,18 +5,23 @@
 	background-image: url("/img/background-2.svg");
 
 	h1 {
-	    background: white;
+	    background: $white-max;
 	    padding: 1.3rem;
-	    transform: rotate(-2deg);
+	    transform: rotate(-2deg) translateY(30%);
 	}
 
 	p {
-		padding: 1.3rem;
+		background: $brand-primary;
+		color: $white-max;
+		padding: 4rem;
+	    // transform: rotate(1deg);
 	}
 
 	&__message {
 		padding: 10rem 2rem;
-		margin-left: 5%;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
 		max-width: 520px;
 		width: 100%;
 	}
