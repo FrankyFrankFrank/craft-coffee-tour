@@ -14,7 +14,6 @@
 		background: $brand-primary;
 		color: $white-max;
 		padding: 4rem;
-	    // transform: rotate(1deg);
 	}
 
 	&__message {
@@ -22,7 +21,7 @@
 		position: relative;
 		left: 50%;
 		transform: translateX(-50%);
-		max-width: 520px;
+		max-width: 620px;
 		width: 100%;
 	}
 }
@@ -201,7 +200,6 @@
 
 			li {
 				line-height: 1.5rem;
-				margin-bottom: 1.4rem;
 			}
 		}
 	}
