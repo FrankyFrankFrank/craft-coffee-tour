@@ -94,7 +94,7 @@
         <h2 class="text-center padded">Three Ways to Purchase</h2>
         <div class="purchase">
             <div class="purchase__item">
-                <h5>Craft Coffee Tour</h5>
+                <h4>Craft Coffee Tour</h4>
                 <ul>
                     <li>Tour Guide Booklet</li>
                     <li>14 of the Best Craft Coffee Experiences in Toronto</li>
@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="purchase__item">
-                <h5>Craft Coffee Tour<br>+ Book</h5>
+                <h4>Craft Coffee Tour<br>+ Book</h4>
                 <ul>
                     <li>Tour Guide Booklet</li>
                     <li>14 Craft Coffee Experiences</li>
@@ -121,7 +121,7 @@
                 </div>
             </div>
             <div class="purchase__item">
-                <h5>Craft Coffee Tour<br>+ Book<br>+ The Roasters Pack</h5>
+                <h4>Craft Coffee Tour<br>+ Book<br>+ The Roasters Pack</h4>
                 <ul>
                     <li>Tour Guide Booklet</li>
                     <li>14 Craft Coffee Experiences</li>
