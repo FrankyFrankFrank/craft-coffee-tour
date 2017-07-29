@@ -125,7 +125,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid grey-bg">
     <div class="row text-center">
         <h3 class="flag">Crafty Add-ons</h3>
     </div>
