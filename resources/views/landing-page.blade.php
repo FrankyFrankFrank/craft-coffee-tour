@@ -78,7 +78,7 @@
                     <li>Audio Interviews</li>
                     <li>In-Depth Articles on the Craft</li>
                 </ul>
-                <span class="purchase__price"><sup>$</sup>40<sub>(CAD)</sub></span>
+                <span class="purchase__price"><sup>$</sup>27<sup>.95</sup><sub>(CAD)</sub></span>
                 <div class="center-block">
                 @component('components.buy-button')
                 @endcomponent
@@ -91,9 +91,9 @@
                     <li>14 Craft Coffee Experiences</li>
                     <li>Audio Interviews</li>
                     <li>In-Depth Articles on the Craft</li>
-                    <li><strong>Coffee Diary Booklet</strong></li>
+                    <li><strong><i>33 Cups of Coffee</i> Booklet</strong></li>
                 </ul>
-                <span class="purchase__price"><sup>$</sup>48<sub>(CAD)</sub></span>
+                <span class="purchase__price"></sup>34<sup>.95</sup><sub>(CAD)</sub></span>
                 <div class="center-block">
                 </div>
             </div>
@@ -104,10 +104,10 @@
                     <li>14 Craft Coffee Experiences</li>
                     <li>Audio Interviews</li>
                     <li>In-Depth Articles on the Craft</li>
-                    <li><strong>Coffee Diary Booklet</strong></li>
-                    <li><strong>Three Months of The Roasters Pack coffee subscription service</strong></li>
+                    <li><strong><i>33 Cups of Coffee</i> Booklet</strong></li>
+                    <li><strong>Six Months of <i>The Roasters Pack</i> coffee subscription service</strong></li>
                 </ul>
-                <span class="purchase__price"><sup>$</sup>110<sub>(CAD)</sub></span>
+                <span class="purchase__price"><sup>$</sup>202<sup>.65</sup><sub>(CAD)</sub></span>
                 <div class="center-block">
                 </div>
             </div>
