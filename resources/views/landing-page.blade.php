@@ -3,10 +3,10 @@
 @section('content')
 <div class="banner container-fluid">
     <div class="banner__message">
-        <h1>The Ultimate Toronto Coffee Guide</h1>
+        <h1>The Ultimate Toronto Coffee Tasting</h1>
         <p>
-            Get to know your city through the world-class coffees brewed right here.
-            14 stops on this bean-lovers dream tour!
+            Discover the best drinks in Toronto taking craft coffee to the next level.<br/>
+            <sup>$</sup>60 worth of incredible coffee drinks and experiences, all for $27.95.
         </p>
     </div>
 </div>
@@ -32,8 +32,7 @@
             <div class="passport__description">
                 <div class="yellow-x yellow-x--top-left"></div>
                 <h3>Get Your Tour Guide Booklet</h3>
-                <p>This keepsake quality 40-page booklet is your personal guide to all the stops in the tour and your pass to enjoy some of the finest coffee drinks Toronto has to offer.</p>
-                <p>Includes lots of great information about the cafes, roasters, baristas, and coffees as well a guide to tasting and picking great coffees.</p>
+                <p>TThis keepsake quality 20-page booklet is your personal tour guide to all the coffee stops. Included are 13 coffee drinks &amp; experiences –the absolute best coffee Toronto has to offer, as curated by coffee professionals.</p>
             </div>
         </div>
     </div>
@@ -41,10 +40,11 @@
         <div class="experience text-center">
             <div class="experience__description">
                 <div class="yellow-x yellow-x--top-right"></div>
-                <h3>Have new coffee experiences</h3>
-                <p>14 highly recommended locations where you can try hand-picked selections from the experts themselves.</p>
-                <p>Enjoy everything from an award-winning flat white to a VIP coffee cupping.</p>
-                <p>All together these stops make up an incredible value.</p>
+                <h3>Visit the Shop and Redeem</h3>
+                <p>Bring your booklet and at each stop you receive a coffee drink or experience.</p>
+                <p>Whether it’s a Single Origin Pourover, a Flat White, Cascara Tea or a VIP Coffee Cuppings – it’s all about sharing with you the best specialty drinks in Toronto.</p>
+                <p>Check out the full tour here.</p>
+                <p>Over $60 worth of coffee drinks and experiences, for only $27.95. Visit the stops on your own time, from August 1<sup>st</sup> to November 30<sup>th</sup>, 2017.</p>
             </div>
             <div class="experience__image">
                 <img class="img-responsive" src="{{ asset('img/coffee-shop.svg') }}"/>
@@ -55,37 +55,14 @@
         <div class="extras">
             <div class="extras__description">
                 <div class="yellow-x yellow-x--top-middle"></div>
-                <h3>Keep the Tour Going</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>The Ultimate Coffee Experience</h3>
+                <p>Like a true tour guide, we want to share information about the drink and the café, with tips on how to get the most out of your visit. At 8 of the stops you’ll even have an audio guide that’ll take you through the drink and the café featuring conversations with someone special at each stop.</p>
+                <p>We even have discounts and contests included, making this the ultimate coffee lover experience.</p>
             </div>
             <div class="extras__image">
                 <img class="img-responsive" src="{{ asset('img/ipad-coffee.svg') }}"/>
             </div>
         </div>
-    </div>
-</div>
-
-<div class="container-fluid">
-    <div class="row text-center">
-        <h3 class="flag">Crafty Add-ons</h3>
-    </div>
-    <div class="row thirty-three">
-        <div class="image"></div>
-        <div class="description-wrapper">
-            <div class="description">
-                <h3>33 Cups of Coffee</h3>
-                <p>An amazing pocket-sized coffee journal that you can use to track flavour profiles, brew thoughts, tasting notes and coffee ratings!</p>
-            </div>
-        </div>
-    </div>
-    <div class="row roasters-pack">
-        <div class="description-wrapper">
-            <div class="description">
-                <h3>The Roasters Pack</h3>
-                <p>Expand your coffee knowledge to all across Canada. The Roasters Pack is a monthly coffee subscription where we bring you three of the countries top roasts fresh to you in the mail. Includes tasting notes, brew guides and stories about the brews you drink.</p>
-            </div>
-        </div>
-        <div class="image"></div>
     </div>
 </div>
 
@@ -137,4 +114,29 @@
         </div>
     </div>
 </div>
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <h3 class="flag">Crafty Add-ons</h3>
+    </div>
+    <div class="row thirty-three">
+        <div class="image"></div>
+        <div class="description-wrapper">
+            <div class="description">
+                <h3>33 Cups of Coffee</h3>
+                <p>An amazing pocket-sized coffee journal that you can use to track flavour profiles, brew thoughts, tasting notes and coffee ratings!</p>
+            </div>
+        </div>
+    </div>
+    <div class="row roasters-pack">
+        <div class="description-wrapper">
+            <div class="description">
+                <h3>The Roasters Pack</h3>
+                <p>Expand your coffee knowledge to all across Canada. The Roasters Pack is a monthly coffee subscription where we bring you three of the countries top roasts fresh to you in the mail. Includes tasting notes, brew guides and stories about the brews you drink.</p>
+            </div>
+        </div>
+        <div class="image"></div>
+    </div>
+</div>
+
 @endsection
