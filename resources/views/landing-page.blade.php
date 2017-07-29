@@ -80,35 +80,45 @@
                 </ul>
                 <span class="purchase__price"><sup>$</sup>27<sup>.95</sup><sub>(CAD)</sub></span>
                 <div class="center-block">
-                @component('components.buy-button')
+                @component('components.tour')
                 @endcomponent
                 </div>
             </div>
             <div class="purchase__item">
-                <h4>Craft Coffee Tour<br>+ Book</h4>
+                <h4>Craft Coffee Tour</h4>
                 <ul>
                     <li>Tour Guide Booklet</li>
                     <li>14 Craft Coffee Experiences</li>
                     <li>Audio Interviews</li>
                     <li>In-Depth Articles on the Craft</li>
+                </ul>
+                <h4>PLUS</h4>
+                <ul>
                     <li><strong><i>33 Cups of Coffee</i> Booklet</strong></li>
                 </ul>
                 <span class="purchase__price"></sup>34<sup>.95</sup><sub>(CAD)</sub></span>
                 <div class="center-block">
+                    @component('components.tour-33')
+                    @endcomponent
                 </div>
             </div>
             <div class="purchase__item">
-                <h4>Craft Coffee Tour<br>+ Book<br>+ The Roasters Pack</h4>
+                <h4>Craft Coffee Tour</h4>
                 <ul>
                     <li>Tour Guide Booklet</li>
                     <li>14 Craft Coffee Experiences</li>
                     <li>Audio Interviews</li>
                     <li>In-Depth Articles on the Craft</li>
+                </ul>
+                <h4>PLUS</h4>
+                <ul>
                     <li><strong><i>33 Cups of Coffee</i> Booklet</strong></li>
                     <li><strong>Six Months of <i>The Roasters Pack</i> coffee subscription service</strong></li>
                 </ul>
                 <span class="purchase__price"><sup>$</sup>202<sup>.65</sup><sub>(CAD)</sub></span>
                 <div class="center-block">
+                    @component('components.tour-33-trp')
+                    @endcomponent
                 </div>
             </div>
         </div>
