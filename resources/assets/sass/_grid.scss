@@ -1,3 +1,59 @@
 .padded {
 	padding: 2rem;
 }
+
+.pt- {
+	&sm {
+		padding-top: 1rem;
+	}
+
+	&med {
+		padding-top: 2rem;
+	}
+
+	&lrg {
+		padding-top: 4rem;
+	}
+}
+
+.pb- {
+	&sm {
+		padding-bottom: 1rem;
+	}
+
+	&med {
+		padding-bottom: 2rem;
+	}
+
+	&lrg {
+		padding-bottom: 4rem;
+	}
+}
+
+.mt- {
+	&sm {
+		margin-top: 1rem;
+	}
+
+	&med {
+		margin-top: 2rem;
+	}
+
+	&lrg {
+		margin-top: 4rem;
+	}
+}
+
+.mb- {
+	&sm {
+		margin-bottom: 1rem;
+	}
+
+	&med {
+		margin-bottom: 2rem;
+	}
+
+	&lrg {
+		margin-bottom: 4rem;
+	}
+}

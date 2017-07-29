@@ -4,13 +4,19 @@
 <div class="banner container-fluid">
     <div class="banner__message">
         <h1>The Ultimate Toronto Coffee Tasting</h1>
-        <p>
-            Discover the best drinks in Toronto taking craft coffee to the next level.<br/>
-            <sup>$</sup>60 worth of incredible coffee drinks and experiences, all for $27.95.
+        <p class="medium text-center pt-lrg">
+            Take coffee to the next level.<br/>
+            Discover the best craft coffee drinks in Toronto.<br/>
+        </p>
+        <p class="text-center">
+            <a class="btn medium text-bold banner__button" href="#purchase">GET IT</a>
         </p>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid light-grey-bg">
+    <div class="row pt-med">
+        <h4 class="text-center"><sup>$</sup>60 worth of incredible coffee drinks and experiences, all for <sup>$</sup>27.95.</h4>
+    </div>
     <div class="row cafe-logos">
         <div class="cafe-logos__logo logo-pilot"></div>
         <div class="cafe-logos__logo logo-pilot"></div>
@@ -18,7 +24,7 @@
         <div class="cafe-logos__logo logo-pilot"></div>
     </div>
 </div>
-<div class="container-fluid how-it-works">
+<div class="container-fluid how-it-works pt-lrg pb-lrg">
     <div class="row">
         <div class="col-md-12 text-center">
             <h2>How It Works</h2>
@@ -40,7 +46,7 @@
         <div class="experience text-center">
             <div class="experience__description">
                 <div class="yellow-x yellow-x--top-right"></div>
-                <h3>Visit the Shop and Redeem</h3>
+                <h3>Visit and Redeem</h3>
                 <p>Bring your booklet and at each stop you receive a coffee drink or experience.</p>
                 <p>Whether it’s a Single Origin Pourover, a Flat White, Cascara Tea or a VIP Coffee Cuppings – it’s all about sharing with you the best specialty drinks in Toronto.</p>
                 <p>Check out the full tour here.</p>
@@ -66,7 +72,7 @@
     </div>
 </div>
 
-<div class="container-fluid grey-bg">
+<div id="purchase" class="container-fluid grey-bg">
     <div class="row">
         <h2 class="text-center padded">Three Ways to Purchase</h2>
         <div class="purchase">

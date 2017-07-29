@@ -8358,6 +8358,10 @@ button.close {
   background-color: #d7d8db;
 }
 
+.light-grey-bg {
+  background-color: #e2e2e4;
+}
+
 .drk-blue-bg {
   background-color: #1b3365;
 }
@@ -8395,20 +8399,24 @@ h4 {
   line-height: 1.2;
 }
 
-h1 {
+h1,
+.huge {
   margin-top: 0;
   font-size: 3.157em;
 }
 
-h2 {
+h2,
+.x-large {
   font-size: 2.369em;
 }
 
-h3 {
+h3,
+.large {
   font-size: 1.777em;
 }
 
-h4 {
+h4,
+.medium {
   font-size: 1.333em;
 }
 
@@ -8417,8 +8425,64 @@ small,
   font-size: 0.75em;
 }
 
+.text-heavy {
+  font-weight: 800;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
 .padded {
   padding: 2rem;
+}
+
+.pt-sm {
+  padding-top: 1rem;
+}
+
+.pt-med {
+  padding-top: 2rem;
+}
+
+.pt-lrg {
+  padding-top: 4rem;
+}
+
+.pb-sm {
+  padding-bottom: 1rem;
+}
+
+.pb-med {
+  padding-bottom: 2rem;
+}
+
+.pb-lrg {
+  padding-bottom: 4rem;
+}
+
+.mt-sm {
+  margin-top: 1rem;
+}
+
+.mt-med {
+  margin-top: 2rem;
+}
+
+.mt-lrg {
+  margin-top: 4rem;
+}
+
+.mb-sm {
+  margin-bottom: 1rem;
+}
+
+.mb-med {
+  margin-bottom: 2rem;
+}
+
+.mb-lrg {
+  margin-bottom: 4rem;
 }
 
 .navbar {
@@ -8473,7 +8537,6 @@ small,
 .banner p {
   background: #1b3365;
   color: #f2f2f3;
-  padding: 4rem;
 }
 
 .banner__message {
@@ -8482,12 +8545,24 @@ small,
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  max-width: 620px;
+  max-width: 650px;
   width: 100%;
 }
 
+.banner__button {
+  padding: .7rem 2rem;
+  background-color: #ecb622;
+  color: #1b3365;
+}
+
+.banner__button:hover {
+  background-color: #d4a011;
+  color: #1b3365;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
 .cafe-logos {
-  background-color: #e2e2e4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8508,12 +8583,6 @@ small,
 
 .cafe-logos .logo-pilot {
   background-image: url("/img/logo-pilot.svg");
-}
-
-.how-it-works {
-  margin-top: 5rem;
-  padding-bottom: 4rem;
-  padding-top: 4rem;
 }
 
 .passport,

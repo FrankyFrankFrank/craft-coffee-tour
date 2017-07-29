@@ -13,7 +13,10 @@ $grey-med: hsl($blue-hue, 16%, 70%);
 $body-bg: $white-max;
 
 // Brand
- $yellow: #ecb622;
+	$yellow: hsl($yellow-hue, 84%, 53%);
+	$yellow-dark: hsl($yellow-hue, 85%, 45%);
+
+	$blue: hsl($blue-hue, 58%, 25%);
 
 // Borders
 $laravel-border-color: darken($body-bg, 10%);
@@ -23,7 +26,7 @@ $panel-default-border: $laravel-border-color;
 $panel-inner-border: $laravel-border-color;
 
 // Brands
-$brand-primary: hsl($blue-hue, 58%, 25%);
+$brand-primary: $blue;
 $brand-info: hsl($blue-hue, 58%, 25%);
 $brand-success: #2ab27b;
 $brand-warning: hsl($yellow-hue, 84%, 53%);

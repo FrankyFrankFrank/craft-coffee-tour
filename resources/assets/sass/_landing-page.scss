@@ -13,7 +13,6 @@
 	p {
 		background: $brand-primary;
 		color: $white-max;
-		padding: 4rem;
 	}
 
 	&__message {
@@ -21,13 +20,24 @@
 		position: relative;
 		left: 50%;
 		transform: translateX(-50%);
-		max-width: 620px;
+		max-width: 650px;
 		width: 100%;
+	}
+
+	&__button {
+		padding: .7rem 2rem;
+		background-color: $yellow;
+		color: $blue;
+
+		&:hover {
+			background-color: $yellow-dark;
+			color: $blue;
+			transform: rotate(3deg);
+		}
 	}
 }
 
 .cafe-logos {
-	background-color: $white-med;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -43,12 +53,6 @@
 	.logo-pilot {
 		background-image: url('/img/logo-pilot.svg');
 	}
-}
-
-.how-it-works {
-	margin-top: 5rem;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
 }
 
 .passport, .experience, .extra {
