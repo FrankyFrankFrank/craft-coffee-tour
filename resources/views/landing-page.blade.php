@@ -38,7 +38,7 @@
             <div class="passport__description">
                 <div class="yellow-x yellow-x--top-left"></div>
                 <h3>Get Your Tour Guide Booklet</h3>
-                <p>TThis keepsake quality 20-page booklet is your personal tour guide to all the coffee stops. Included are 13 coffee drinks &amp; experiences –the absolute best coffee Toronto has to offer, as curated by coffee professionals.</p>
+                <p>This keepsake quality 20-page booklet is your personal tour guide to all the coffee stops. Included are 13 coffee drinks &amp; experiences –the absolute best coffee Toronto has to offer, as curated by coffee professionals.</p>
             </div>
         </div>
     </div>
