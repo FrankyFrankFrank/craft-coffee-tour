@@ -14,6 +14,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+    @component('components.analytics')
+    @endcomponent
     <div>
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
