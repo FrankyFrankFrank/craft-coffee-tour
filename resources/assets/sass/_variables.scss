@@ -44,9 +44,9 @@ $navbar-default-bg: #fff;
 
 // Buttons
 $btn-default-color: $text-color;
-$border-radius-base:        0px;
-$border-radius-large:       0px;
-$border-radius-small:       0px;
+$border-radius-base:        2px;
+$border-radius-large:       4px;
+$border-radius-small:       1px;
 
 // Inputs
 $input-border: lighten($text-color, 40%);
