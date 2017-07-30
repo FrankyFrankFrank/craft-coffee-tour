@@ -5,8 +5,8 @@
     <div class="banner__message">
         <h1>The Ultimate Toronto Coffee Tasting</h2>
         <p class="medium text-center pt-lrg">
-            Take coffee to the next level.<br/>
-            Discover the best craft coffee drinks in Toronto.<br/>
+            A self-guided tour of the best craft coffee in Toronto<br/>
+            August 1, 2017 - November 30, 2017
         </p>
         <p class="text-center">
             <a class="btn medium text-bold banner__button" href="#purchase">GET IT</a>
