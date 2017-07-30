@@ -8433,20 +8433,24 @@ small,
   font-weight: 600;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .padded {
   padding: 2rem;
 }
 
 .pt-sm {
-  padding-top: 1rem;
+  padding-top: 1.333rem;
 }
 
 .pt-med {
-  padding-top: 2rem;
+  padding-top: 2.365rem;
 }
 
 .pt-lrg {
-  padding-top: 4rem;
+  padding-top: 5rem;
 }
 
 .pb-sm {
@@ -8459,6 +8463,30 @@ small,
 
 .pb-lrg {
   padding-bottom: 4rem;
+}
+
+.pr-sm {
+  padding-right: 1rem;
+}
+
+.pr-med {
+  padding-right: 2rem;
+}
+
+.pr-lrg {
+  padding-right: 4rem;
+}
+
+.pl-sm {
+  padding-left: 1rem;
+}
+
+.pl-med {
+  padding-left: 2rem;
+}
+
+.pl-lrg {
+  padding-left: 4rem;
 }
 
 .mt-sm {
@@ -8490,7 +8518,7 @@ small,
 }
 
 .navbar-brand img {
-  width: 50%;
+  width: 150px;
 }
 
 .yellow-x {
@@ -8540,7 +8568,7 @@ small,
 }
 
 .banner__message {
-  padding: 10rem 2rem;
+  padding: 6rem 2rem;
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -8563,6 +8591,9 @@ small,
 }
 
 .cafe-logos {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8571,18 +8602,29 @@ small,
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 3rem;
 }
 
 .cafe-logos__logo {
-  width: 140px;
-  height: 92px;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: 50%;
+  -webkit-box-flex: 140px;
+      -ms-flex: 140px 1 1;
+          flex: 140px 1 1;
+  height: 92px;
+  margin: 1rem;
 }
 
 .cafe-logos .logo-pilot {
   background-image: url("/img/logo-pilot.svg");
+}
+
+.cafe-logos .logo-dmp {
+  background-image: url("/img/logo-dmp.svg");
+}
+
+.cafe-logos .logo-propeller {
+  background-image: url("/img/logo-propeller.svg");
 }
 
 .passport,
@@ -8756,7 +8798,6 @@ small,
   -webkit-box-flex: 460px;
       -ms-flex: 460px 1 1;
           flex: 460px 1 1;
-  padding: 2rem;
 }
 
 .roasters-pack .description {
@@ -8835,6 +8876,14 @@ small,
 }
 
 @media (max-width: 920px) {
+  .banner__message {
+    padding: 2rem;
+  }
+
+  .banner__message h1 {
+    font-size: 2.369rem;
+  }
+
   .roasters-pack .description-wrapper {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;

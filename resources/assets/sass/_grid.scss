@@ -1,18 +1,22 @@
+.full-width {
+	width: 100%;
+}
+
 .padded {
 	padding: 2rem;
 }
 
 .pt- {
 	&sm {
-		padding-top: 1rem;
+		padding-top: 1.333rem;
 	}
 
 	&med {
-		padding-top: 2rem;
+		padding-top: 2.365rem;
 	}
 
 	&lrg {
-		padding-top: 4rem;
+		padding-top: 5rem;
 	}
 }
 
@@ -27,6 +31,34 @@
 
 	&lrg {
 		padding-bottom: 4rem;
+	}
+}
+
+.pr- {
+	&sm {
+		padding-right: 1rem;
+	}
+
+	&med {
+		padding-right: 2rem;
+	}
+
+	&lrg {
+		padding-right: 4rem;
+	}
+}
+
+.pl- {
+	&sm {
+		padding-left: 1rem;
+	}
+
+	&med {
+		padding-left: 2rem;
+	}
+
+	&lrg {
+		padding-left: 4rem;
 	}
 }
 

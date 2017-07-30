@@ -16,7 +16,7 @@
 	}
 
 	&__message {
-		padding: 10rem 2rem;
+		padding: 6rem 2rem;
 		position: relative;
 		left: 50%;
 		transform: translateX(-50%);
@@ -38,20 +38,30 @@
 }
 
 .cafe-logos {
+	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 3rem;
 
 	&__logo {
-		width: 140px;
-		height: 92px;
 		background-size: contain;
 		background-repeat: no-repeat;
+		background-position: 50%;
+		flex: 140px 1 1;
+		height: 92px;
+		margin: 1rem;
 	}
 
 	.logo-pilot {
 		background-image: url('/img/logo-pilot.svg');
+	}
+
+	.logo-dmp {
+		background-image: url('/img/logo-dmp.svg');
+	}
+
+	.logo-propeller {
+		background-image: url('/img/logo-propeller.svg');
 	}
 }
 
@@ -169,7 +179,6 @@
 		display: flex;
 		justify-content: center;
 		flex: 460px 1 1;
-		padding: 2rem;
 	}
 
 	.description {
@@ -229,6 +238,15 @@
 }
 
 @media (max-width: 920px) {
+	.banner {
+		&__message {
+			padding: 2rem;
+
+			h1 {
+				font-size: 2.369rem;
+			}
+		}
+	}
 	.roasters-pack {
 		.description-wrapper {
 			order: 1;

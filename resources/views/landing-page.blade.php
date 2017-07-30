@@ -3,7 +3,7 @@
 @section('content')
 <div class="banner container-fluid">
     <div class="banner__message">
-        <h1>The Ultimate Toronto Coffee Tasting</h1>
+        <h1>The Ultimate Toronto Coffee Tasting</h2>
         <p class="medium text-center pt-lrg">
             Take coffee to the next level.<br/>
             Discover the best craft coffee drinks in Toronto.<br/>
@@ -14,14 +14,13 @@
     </div>
 </div>
 <div class="container-fluid light-grey-bg">
-    <div class="row pt-med">
-        <h4 class="text-center"><sup>$</sup>60 worth of incredible coffee drinks and experiences, all for <sup>$</sup>27.95.</h4>
-    </div>
-    <div class="row cafe-logos">
+    <div class="row cafe-logos pt-med pb-lrg">
+        <div class="full-width pb-med pr-sm pl-sm">
+            <h4 class="text-center"><sup>$</sup>60 worth of incredible coffee drinks and experiences, all for <sup>$</sup>27.95.</h4>
+        </div>
         <div class="cafe-logos__logo logo-pilot"></div>
-        <div class="cafe-logos__logo logo-pilot"></div>
-        <div class="cafe-logos__logo logo-pilot"></div>
-        <div class="cafe-logos__logo logo-pilot"></div>
+        <div class="cafe-logos__logo logo-dmp"></div>
+        <div class="cafe-logos__logo logo-propeller"></div>
     </div>
 </div>
 <div class="container-fluid how-it-works pt-lrg pb-lrg">
@@ -49,7 +48,7 @@
                 <h3>Visit and Redeem</h3>
                 <p>Bring your booklet and at each stop you receive a coffee drink or experience.</p>
                 <p>Whether it’s a Single Origin Pourover, a Flat White, Cascara Tea or a VIP Coffee Cuppings – it’s all about sharing with you the best specialty drinks in Toronto.</p>
-                <p>Check out the full tour here.</p>
+                <!-- <p>Check out the full tour here.</p> -->
                 <p>Over $60 worth of coffee drinks and experiences, for only $27.95. Visit the stops on your own time, from August 1<sup>st</sup> to November 30<sup>th</sup>, 2017.</p>
             </div>
             <div class="experience__image">
