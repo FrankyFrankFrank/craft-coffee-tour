@@ -65,6 +65,41 @@
 	}
 }
 
+.preview-images {
+
+	&--img {
+		background-size: cover;
+		background-position: 50%; 
+		height: 200px;
+		flex: 16.66% 1 1;
+		min-width: 200px;
+	}
+
+	&--pilot {
+		background-image: url('/img/img-pilot.jpg');
+	}
+
+	&--boxcar {
+		background-image: url('/img/img-boxcar.jpg');
+	}
+
+	&--neo {
+		background-image: url('/img/img-neo.jpg');
+	}
+
+	&--jacked-up {
+		background-image: url('/img/img-jacked-up.jpg');
+	}
+
+	&--sorry {
+		background-image: url('/img/img-sorry.jpg');
+	}
+
+	&--hot-black {
+		background-image: url('/img/img-hot-black.jpg');
+	}
+}
+
 .passport, .experience, .extra {
 	margin-top: 3rem;
 	margin-bottom: 3rem;

@@ -23,6 +23,22 @@
         <div class="cafe-logos__logo logo-propeller"></div>
     </div>
 </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="preview-images flex">
+            <div class="flex flex-half">
+                <div class="preview-images--img preview-images--neo"></div>
+                <div class="preview-images--img preview-images--hot-black"></div>
+                <div class="preview-images--img preview-images--pilot"></div>
+            </div>
+            <div class="flex flex-half">
+                <div class="preview-images--img preview-images--jacked-up"></div>
+                <div class="preview-images--img preview-images--sorry"></div>
+                <div class="preview-images--img preview-images--boxcar"></div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container-fluid how-it-works pt-lrg pb-lrg">
     <div class="row">
         <div class="col-md-12 text-center">

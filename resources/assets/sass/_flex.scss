@@ -1,6 +1,10 @@
 .flex {
 	display: flex;
 	flex-wrap: wrap;
+
+	&-half {
+		flex: 50% 1 1;
+	}
 }
 
 .justify {

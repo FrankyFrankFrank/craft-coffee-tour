@@ -8561,6 +8561,12 @@ small,
       flex-wrap: wrap;
 }
 
+.flex-half {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50% 1 1;
+          flex: 50% 1 1;
+}
+
 .justify-sa {
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -8696,6 +8702,40 @@ small,
 
 .cafe-logos .logo-propeller {
   background-image: url("/img/logo-propeller.svg");
+}
+
+.preview-images--img {
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+  -webkit-box-flex: 16.66%;
+      -ms-flex: 16.66% 1 1;
+          flex: 16.66% 1 1;
+  min-width: 200px;
+}
+
+.preview-images--pilot {
+  background-image: url("/img/img-pilot.jpg");
+}
+
+.preview-images--boxcar {
+  background-image: url("/img/img-boxcar.jpg");
+}
+
+.preview-images--neo {
+  background-image: url("/img/img-neo.jpg");
+}
+
+.preview-images--jacked-up {
+  background-image: url("/img/img-jacked-up.jpg");
+}
+
+.preview-images--sorry {
+  background-image: url("/img/img-sorry.jpg");
+}
+
+.preview-images--hot-black {
+  background-image: url("/img/img-hot-black.jpg");
 }
 
 .passport,
