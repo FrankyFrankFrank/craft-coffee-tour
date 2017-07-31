@@ -100,5 +100,8 @@
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="https://use.typekit.net/dkg1wjh.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- Gleam -->
+    <script src="https://js.gleam.io/oi-7Vvahb7r.js" async="async"></script>
 </body>
 </html>
