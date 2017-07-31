@@ -212,7 +212,9 @@
 			padding-left: 0;
 
 			li {
-				line-height: 1.5rem;
+				border-top: 1px dotted $white-med;
+				margin-bottom: .3rem;
+				padding-top: .3rem;
 			}
 		}
 	}

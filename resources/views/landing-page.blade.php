@@ -98,7 +98,7 @@
                     <h4>Craft Coffee Tour</h4>
                     <ul>
                         <li>Tour Guide Booklet</li>
-                        <li>14 Craft Coffee Experiences</li>
+                        <li>14 of the Best Craft Coffee Experiences in Toronto</li>
                         <li>Audio Interviews</li>
                         <li>In-Depth Articles on the Craft</li>
                     </ul>
@@ -120,7 +120,7 @@
                     <h4>Craft Coffee Tour</h4>
                     <ul>
                         <li>Tour Guide Booklet</li>
-                        <li>14 Craft Coffee Experiences</li>
+                        <li>14 of the Best Craft Coffee Experiences in Toronto</li>
                         <li>Audio Interviews</li>
                         <li>In-Depth Articles on the Craft</li>
                     </ul>

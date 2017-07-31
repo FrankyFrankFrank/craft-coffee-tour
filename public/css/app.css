@@ -8923,7 +8923,9 @@ small,
 }
 
 .purchase__item ul li {
-  line-height: 1.5rem;
+  border-top: 1px dotted #e2e2e4;
+  margin-bottom: .3rem;
+  padding-top: .3rem;
 }
 
 .purchase__buy {
