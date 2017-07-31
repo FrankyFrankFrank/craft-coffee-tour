@@ -147,7 +147,7 @@
                     </ul>
                 </div>
                 <div class="purchase__buy">
-                    <span class="purchase__price"><sup>$</sup>202<sup>.65</sup><sub>(CAD)</sub></span>
+                    <span class="purchase__price"><sup>$</sup>199<sup>.95</sup><sub>(CAD)</sub></span>
                     <div class="center-block">
                         @component('components.tour-33-trp')
                         @endcomponent
