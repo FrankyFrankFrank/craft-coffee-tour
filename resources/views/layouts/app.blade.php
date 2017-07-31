@@ -50,7 +50,7 @@
 
         <div class="container-fluid footer">
             <div class="row">
-                <div class="flex justify-center align-center">
+                <div class="flex justify-center align-center mt-med mb-med">
                     <div class="column logo padded-sm">
                         @component('svg/logo-stacked')
                         @endcomponent
