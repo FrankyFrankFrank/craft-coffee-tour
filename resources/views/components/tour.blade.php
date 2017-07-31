@@ -95,11 +95,13 @@
   },
   "cart": {
     "contents": {
+      "title": false,
       "button": true
     },
     "text": {
+      "title": "Toronto Craft Coffee Tour",
       "button": "Checkout",
-      "empty": "Your cart is empty. Click one of those orange buttons and get Dad something sweet!"
+      "empty": "Your cart is empty."
     },
     "styles": {
       "button": {

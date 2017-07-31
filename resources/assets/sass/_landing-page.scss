@@ -272,6 +272,11 @@
 			font-size: 1rem;
 		}
 	}
+
+	&__discount {
+		border: 4px dotted $blue;
+		background-color: $white-med;
+	}
 }
 
 @media (max-width: 920px) {

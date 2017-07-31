@@ -8988,6 +8988,11 @@ small,
   font-size: 1rem;
 }
 
+.purchase__discount {
+  border: 4px dotted #1b3365;
+  background-color: #e2e2e4;
+}
+
 @media (max-width: 920px) {
   .banner__message {
     padding: 2rem;

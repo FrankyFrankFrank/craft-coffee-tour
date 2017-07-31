@@ -107,6 +107,12 @@
                     @component('components.tour')
                     @endcomponent
                     </div>
+                    <div class="purchase__discount mt-sm pt-sm pb-sm">
+                        <h4 class="mb-tiny mt-tiny">GET 15% OFF</h4>
+                        <p class="mt-tiny mb-tiny">
+                            The first 100 people to use the coupon code "<strong>IMEARLY</strong>" will get 15% off their tour!
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="purchase__item">
@@ -124,10 +130,16 @@
                     </ul>
                 </div>
                 <div class="purchase__buy">
-                    <span class="purchase__price"></sup>34<sup>.95</sup><sub>(CAD)</sub></span>
+                    <span class="purchase__price"><sup>$</sup>34<sup>.95</sup><sub>(CAD)</sub></span>
                     <div class="center-block">
                         @component('components.tour-33')
                         @endcomponent
+                    </div>
+                    <div class="purchase__discount mt-sm pt-sm pb-sm">
+                        <h4 class="mb-tiny mt-tiny">GET 15% OFF</h4>
+                        <p class="mt-tiny mb-tiny">
+                            The first 100 people to use the coupon code "<strong>IMEARLY</strong>" will get 15% off their tour!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -151,6 +163,12 @@
                     <div class="center-block">
                         @component('components.tour-33-trp')
                         @endcomponent
+                    </div>
+                    <div class="purchase__discount mt-sm pt-sm pb-sm">
+                        <h4 class="mb-tiny mt-tiny">GET 15% OFF</h4>
+                        <p class="mt-tiny mb-tiny">
+                            The first 100 people to use the coupon code "<strong>IMEARLY</strong>" will get 15% off their tour!
+                        </p>
                     </div>
                 </div>
             </div>
