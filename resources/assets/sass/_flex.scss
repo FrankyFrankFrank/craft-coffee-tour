@@ -1,0 +1,17 @@
+.flex {
+	display: flex;
+}
+
+.justify {
+	&-sa {
+		justify-content: space-around;
+	}
+
+	&-start {
+		justify-content: flex-start;
+	}
+
+	&-center {
+		justify-content: center;
+	}
+}

@@ -4,6 +4,18 @@
 
 .padded {
 	padding: 2rem;
+
+	&-sm {
+		padding: 1.333rem;
+	}
+
+	&-med {
+		padding-top: 2.365rem;
+	}
+
+	&-lrg {
+		padding-top: 5rem;
+	}
 }
 
 .pt- {

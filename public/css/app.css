@@ -8441,6 +8441,18 @@ small,
   padding: 2rem;
 }
 
+.padded-sm {
+  padding: 1.333rem;
+}
+
+.padded-med {
+  padding-top: 2.365rem;
+}
+
+.padded-lrg {
+  padding-top: 5rem;
+}
+
 .pt-sm {
   padding-top: 1.333rem;
 }
@@ -8511,6 +8523,29 @@ small,
 
 .mb-lrg {
   margin-bottom: 4rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.justify-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .navbar {
@@ -8889,5 +8924,9 @@ small,
         -ms-flex-order: 1;
             order: 1;
   }
+}
+
+.footer .logo {
+  width: 200px;
 }
 

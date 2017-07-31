@@ -16,7 +16,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    
+
 </head>
 <body>
     @component('components.analytics')
@@ -50,6 +50,21 @@
 
         <div class="container-fluid footer">
             <div class="row">
+                <div class="flex justify-center">
+                    <div class="column logo padded-sm">
+                        @component('svg/logo-stacked')
+                        @endcomponent
+                    </div>
+                    <div class="column about padded-sm">
+                        <h4>Toronto Craft Coffee Tour</h4>
+                        <p>In partnership with The Roasters Pack</p>
+                        <div class="flex justify-start">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
