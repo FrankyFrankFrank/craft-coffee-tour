@@ -3,7 +3,10 @@
 }
 
 .padded {
-	padding: 2rem;
+
+	&-tiny {
+		padding: .3rem;
+	}
 
 	&-sm {
 		padding: 1.333rem;
@@ -19,6 +22,11 @@
 }
 
 .pt- {
+
+	&tiny {
+		padding-top: .3rem;
+	}
+
 	&sm {
 		padding-top: 1.333rem;
 	}
@@ -33,6 +41,11 @@
 }
 
 .pb- {
+
+	&tiny {
+		padding-bottom: .3rem;
+	}
+
 	&sm {
 		padding-bottom: 1rem;
 	}
@@ -47,6 +60,11 @@
 }
 
 .pr- {
+
+	&tiny {
+		padding-right: .3rem;
+	}
+
 	&sm {
 		padding-right: 1rem;
 	}
@@ -61,6 +79,11 @@
 }
 
 .pl- {
+
+	&tiny {
+		padding-left: .3rem;
+	}
+
 	&sm {
 		padding-left: 1rem;
 	}
@@ -75,6 +98,11 @@
 }
 
 .mt- {
+
+	&tiny {
+		margin-top: .3rem;
+	}
+
 	&sm {
 		margin-top: 1rem;
 	}
@@ -89,6 +117,11 @@
 }
 
 .mb- {
+
+	&tiny {
+		margin-bottom: .3rem;
+	}
+
 	&sm {
 		margin-bottom: 1rem;
 	}

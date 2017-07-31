@@ -41,3 +41,9 @@ small, .font_small {font-size: 0.75em;}
     font-weight: 600;
   }
 }
+
+.text-plain {
+  &:hover {
+    text-decoration: none;
+  }
+}

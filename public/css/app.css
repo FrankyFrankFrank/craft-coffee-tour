@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);@charset "UTF-8";
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -8433,12 +8433,16 @@ small,
   font-weight: 600;
 }
 
+.text-plain:hover {
+  text-decoration: none;
+}
+
 .full-width {
   width: 100%;
 }
 
-.padded {
-  padding: 2rem;
+.padded-tiny {
+  padding: .3rem;
 }
 
 .padded-sm {
@@ -8453,6 +8457,10 @@ small,
   padding-top: 5rem;
 }
 
+.pt-tiny {
+  padding-top: .3rem;
+}
+
 .pt-sm {
   padding-top: 1.333rem;
 }
@@ -8463,6 +8471,10 @@ small,
 
 .pt-lrg {
   padding-top: 5rem;
+}
+
+.pb-tiny {
+  padding-bottom: .3rem;
 }
 
 .pb-sm {
@@ -8477,6 +8489,10 @@ small,
   padding-bottom: 4rem;
 }
 
+.pr-tiny {
+  padding-right: .3rem;
+}
+
 .pr-sm {
   padding-right: 1rem;
 }
@@ -8487,6 +8503,10 @@ small,
 
 .pr-lrg {
   padding-right: 4rem;
+}
+
+.pl-tiny {
+  padding-left: .3rem;
 }
 
 .pl-sm {
@@ -8501,6 +8521,10 @@ small,
   padding-left: 4rem;
 }
 
+.mt-tiny {
+  margin-top: .3rem;
+}
+
 .mt-sm {
   margin-top: 1rem;
 }
@@ -8511,6 +8535,10 @@ small,
 
 .mt-lrg {
   margin-top: 4rem;
+}
+
+.mb-tiny {
+  margin-bottom: .3rem;
 }
 
 .mb-sm {
@@ -8546,6 +8574,12 @@ small,
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar {
@@ -8927,6 +8961,10 @@ small,
 }
 
 .footer .logo {
+  width: 200px;
+}
+
+.footer .social {
   width: 200px;
 }
 

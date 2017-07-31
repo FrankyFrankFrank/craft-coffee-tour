@@ -50,19 +50,42 @@
 
         <div class="container-fluid footer">
             <div class="row">
-                <div class="flex justify-center">
+                <div class="flex justify-center align-center">
                     <div class="column logo padded-sm">
                         @component('svg/logo-stacked')
                         @endcomponent
                     </div>
                     <div class="column about padded-sm">
-                        <h4>Toronto Craft Coffee Tour</h4>
-                        <p>In partnership with The Roasters Pack</p>
-                        <div class="flex justify-start">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        <h4 class="mb-tiny mt-tiny">Toronto Craft Coffee Tour</h4>
+                        <div class="social">
+                            <a 
+                                class="text-plain" 
+                                href="https://www.instagram.com/craftcoffeeto/"  
+                                target="_blank"
+                            >
+                                <i class="fa fa-instagram fa-2x pt-tiny pr-tiny pb-tiny" aria-hidden="true"></i>
+                            </a>
+                            <a 
+                                class="text-plain" 
+                                href="https://twitter.com/craftcoffeeto"  
+                                target="_blank"
+                            >
+                                <i class="fa fa-twitter fa-2x padded-tiny" aria-hidden="true"></i>
+                            </a>
+                            <a 
+                                class="text-plain" 
+                                href="https://www.facebook.com/CraftCoffeeTO/"  
+                                target="_blank"
+                            >
+                                <i class="fa fa-facebook-official fa-2x padded-tiny" aria-hidden="true"></i>
+                            </a>
                         </div>
+                        <p class="mb-tiny">
+                            In partnership with The Roasters Pack<br/>
+                            <a href="http://www.theroasterspack.com" target="_blank">
+                                <strong>www.theroasterspack.com</strong>
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>

@@ -73,7 +73,7 @@
 
 <div id="purchase" class="container-fluid grey-bg">
     <div class="row">
-        <h2 class="text-center padded">Three Ways to Purchase</h2>
+        <h2 class="text-center padded-med">Three Ways to Purchase</h2>
         <div class="purchase">
             <div class="purchase__item">
                 <div class="purchase__description">
