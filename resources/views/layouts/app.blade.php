@@ -87,6 +87,10 @@
                             </a>
                         </p>
                     </div>
+                    <div class="column trp padded-sm">
+                        @component('svg/logo-trp')
+                        @endcomponent
+                    </div>
                 </div>
             </div>
         </div>
