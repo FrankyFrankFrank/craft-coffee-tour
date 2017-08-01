@@ -8696,12 +8696,16 @@ small,
   background-image: url("/img/logo-pilot.svg");
 }
 
-.cafe-logos .logo-dmp {
-  background-image: url("/img/logo-dmp.svg");
-}
-
 .cafe-logos .logo-boxcar {
   background-image: url("/img/logo-boxcar.svg");
+}
+
+.cafe-logos .logo-coffee-lab {
+  background-image: url("/img/logo-coffee-lab.svg");
+}
+
+.cafe-logos .logo-dmp {
+  background-image: url("/img/logo-dmp.svg");
 }
 
 .cafe-logos .logo-hot-black {
