@@ -10,6 +10,9 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
@@ -97,11 +100,16 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
     <script src="https://use.typekit.net/dkg1wjh.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+    <script src="{{ asset('js/app.js') }}"></script>
+
     <!-- Gleam -->
     <script src="https://js.gleam.io/oi-7Vvahb7r.js" async="async"></script>
+
+    <!-- Buy Button Scripts -->
+    @component('components.buy-button-scripts')
+    @endcomponent
 </body>
 </html>
