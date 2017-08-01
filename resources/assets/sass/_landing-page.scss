@@ -52,16 +52,34 @@
 		margin: 1rem;
 	}
 
-	.logo-pilot {
-		background-image: url('/img/logo-pilot.svg');
-	}
-
-	.logo-dmp {
-		background-image: url('/img/logo-dmp.svg');
-	}
-
-	.logo-propeller {
-		background-image: url('/img/logo-propeller.svg');
+	.logo {
+		&-pilot {
+			background-image: url('/img/logo-pilot.svg');
+		}
+		&-dmp {
+			background-image: url('/img/logo-dmp.svg');
+		}
+		&-boxcar {
+			background-image: url('/img/logo-boxcar.svg');
+		}
+		&-hot-black {
+			background-image: url('/img/logo-hot-black.svg');
+		}
+		&-neo {
+			background-image: url('/img/logo-neo.svg');
+		}
+		&-sorry {
+			background-image: url('/img/logo-sorry.svg');
+		}
+		&-tucana {
+			background-image: url('/img/logo-tucana.svg');
+		}
+		&-voodoo {
+			background-image: url('/img/logo-voodoo.svg');
+		}
+		&-propeller {
+			background-image: url('/img/logo-propeller.svg');
+		}
 	}
 }
 
@@ -72,7 +90,6 @@
 		background-position: 50%; 
 		height: 200px;
 		flex: 16.66% 1 1;
-		min-width: 200px;
 	}
 
 	&--pilot {

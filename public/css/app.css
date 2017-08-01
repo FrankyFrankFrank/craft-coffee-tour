@@ -8700,6 +8700,30 @@ small,
   background-image: url("/img/logo-dmp.svg");
 }
 
+.cafe-logos .logo-boxcar {
+  background-image: url("/img/logo-boxcar.svg");
+}
+
+.cafe-logos .logo-hot-black {
+  background-image: url("/img/logo-hot-black.svg");
+}
+
+.cafe-logos .logo-neo {
+  background-image: url("/img/logo-neo.svg");
+}
+
+.cafe-logos .logo-sorry {
+  background-image: url("/img/logo-sorry.svg");
+}
+
+.cafe-logos .logo-tucana {
+  background-image: url("/img/logo-tucana.svg");
+}
+
+.cafe-logos .logo-voodoo {
+  background-image: url("/img/logo-voodoo.svg");
+}
+
 .cafe-logos .logo-propeller {
   background-image: url("/img/logo-propeller.svg");
 }
@@ -8711,7 +8735,6 @@ small,
   -webkit-box-flex: 16.66%;
       -ms-flex: 16.66% 1 1;
           flex: 16.66% 1 1;
-  min-width: 200px;
 }
 
 .preview-images--pilot {

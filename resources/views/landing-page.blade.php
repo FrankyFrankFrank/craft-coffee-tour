@@ -18,24 +18,24 @@
         <div class="full-width pb-med pr-sm pl-sm">
             <h4 class="text-center"><sup>$</sup>60 worth of incredible coffee drinks and experiences, all for <sup>$</sup>27.95.</h4>
         </div>
-        <div class="cafe-logos__logo logo-pilot"></div>
+        <div class="cafe-logos__logo logo-boxcar"></div>
         <div class="cafe-logos__logo logo-dmp"></div>
+        <div class="cafe-logos__logo logo-pilot"></div>
         <div class="cafe-logos__logo logo-propeller"></div>
+        <div class="cafe-logos__logo logo-sorry"></div>
+        <div class="cafe-logos__logo logo-tucana"></div>
+        <div class="cafe-logos__logo logo-voodoo"></div>
     </div>
 </div>
 <div class="container-fluid">
     <div class="row">
         <div class="preview-images flex">
-            <div class="flex flex-half">
-                <div class="preview-images--img preview-images--neo"></div>
-                <div class="preview-images--img preview-images--hot-black"></div>
-                <div class="preview-images--img preview-images--pilot"></div>
-            </div>
-            <div class="flex flex-half">
-                <div class="preview-images--img preview-images--jacked-up"></div>
-                <div class="preview-images--img preview-images--sorry"></div>
-                <div class="preview-images--img preview-images--boxcar"></div>
-            </div>
+            <div class="preview-images--img preview-images--neo"></div>
+            <div class="preview-images--img preview-images--hot-black"></div>
+            <div class="preview-images--img preview-images--pilot"></div>
+            <div class="preview-images--img preview-images--jacked-up"></div>
+            <div class="preview-images--img preview-images--sorry"></div>
+            <div class="preview-images--img preview-images--boxcar"></div>
         </div>
     </div>
 </div>
