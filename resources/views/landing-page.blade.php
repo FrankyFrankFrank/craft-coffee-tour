@@ -14,7 +14,7 @@
     </div>
 </div>
 <div class="container-fluid light-grey-bg">
-    <div class="row cafe-logos pt-med pb-lrg">
+    <div class="row cafe-logos pt-med">
         <div class="full-width pb-med pr-sm pl-sm">
             <h4 class="text-center"><sup>$</sup>60 worth of incredible coffee drinks and experiences, all for <sup>$</sup>27.95.</h4>
         </div>
@@ -25,6 +25,9 @@
         <div class="cafe-logos__logo logo-sorry"></div>
         <div class="cafe-logos__logo logo-tucana"></div>
         <div class="cafe-logos__logo logo-voodoo"></div>
+    </div>
+    <div class="row pt-tiny pb-med">
+        <h4 class="padded-sm text-center">...and more!</h4>
     </div>
 </div>
 <div class="container-fluid">
