@@ -158,7 +158,13 @@
                     <h4>PLUS</h4>
                     <ul>
                         <li><strong><i>33 Cups of Coffee</i> Booklet</strong></li>
-                        <li><strong>Six Months of <i>The Roasters Pack</i> coffee subscription service</strong></li>
+                        <li>
+                            <strong>
+                                Six Months of <i>The Roasters Pack</i> coffee subscription service
+                            </strong>
+                            <br>
+                            <span class="font-small">(12oz - 3x 4oz bags)</span>
+                        </li>
                     </ul>
                 </div>
                 <div class="purchase__buy">
