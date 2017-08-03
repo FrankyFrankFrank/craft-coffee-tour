@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Tour Overview | ')
+
 @section('content')
 
 <div class="container">
