@@ -163,7 +163,7 @@
                                 Six Months of <i>The Roasters Pack</i> coffee subscription service
                             </strong>
                             <br>
-                            <span class="font-small">(12oz - 3x 4oz bags)</span>
+                            <span class="font-small">(12oz - 3x 4oz bags, Ships Monthly)</span>
                         </li>
                     </ul>
                 </div>
