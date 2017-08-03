@@ -67,7 +67,7 @@
                 <h3>Visit and Redeem</h3>
                 <p>Bring your booklet and at each stop you receive a coffee drink or experience.</p>
                 <p>Whether it’s a Single Origin Pourover, a Flat White, Cascara Tea or a VIP Coffee Cuppings – it’s all about sharing with you the best specialty drinks in Toronto.</p>
-                <!-- <p>Check out the full tour here.</p> -->
+                <p><a class="text-heavy mb-med" href="/overview" target="_blank">Check out the full tour here.</a></p>
                 <p>Over $60 worth of coffee drinks and experiences, for only $27.95. Visit the stops on your own time, from August 1<sup>st</sup> to November 30<sup>th</sup>, 2017.</p>
             </div>
             <div class="experience__image">
@@ -208,5 +208,13 @@
         <div class="image"></div>
     </div>
 </div>
+
+@endsection
+
+@section('scripts')
+
+    <!-- Buy Button Scripts -->
+    @component('components.buy-button-scripts')
+    @endcomponent
 
 @endsection
