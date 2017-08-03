@@ -210,3 +210,11 @@
 </div>
 
 @endsection
+
+@section('scripts')
+
+    <!-- Buy Button Scripts -->
+    @component('components.buy-button-scripts')
+    @endcomponent
+
+@endsection

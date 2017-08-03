@@ -108,8 +108,7 @@
     <!-- Gleam -->
     <script src="https://js.gleam.io/oi-7Vvahb7r.js" async="async"></script>
 
-    <!-- Buy Button Scripts -->
-    @component('components.buy-button-scripts')
-    @endcomponent
+    @yield('scripts')
+    
 </body>
 </html>
