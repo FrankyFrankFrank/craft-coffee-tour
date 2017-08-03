@@ -14,5 +14,10 @@
 Auth::routes();
 
 Route::get('/', function(){ return view('landing-page'); })->name('landing');
-Route::get('/overview', function(){ return view('tour-overview'); })->name('overview');
+
+Route::get('/overview', function(){ 
+	$stops = app('App\TourOverview')->stops;
+	return view('tour-overview', ['stops' => $stops]);
+})->name('overview');
+
 Route::get('/home', 'HomeController@index')->name('home');
