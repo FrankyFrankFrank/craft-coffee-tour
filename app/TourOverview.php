@@ -18,14 +18,14 @@ class TourOverview extends Model
     		[
     			'id' => 'arvo',
     			'name' => 'Arvo Coffee',
-    			'description' => 'At Arvo Coffee, one of the main tenets is the emphasis oncreativity. The menu featuresthe staples as well as a rotatingselection of seasonal beveragesthat push the boundaries liketheir Hopped Cold Brew, HotDate Latte or Cascara Lemonade.Often, these unique drinks aredesigned by the baristas behindthe bar.',
+    			'description' => 'At Arvo Coffee, one of the main tenets is the emphasis on creativity. The menu features the staples as well as a rotatingselection of seasonal beverages that push the boundaries like their Hopped Cold Brew, HotDate Latte or Cascara Lemonade. Often, these unique drinks aredesigned by the baristas behind the bar.',
     			'address' => '17 Gristmill Lane Toronto, ON M5A 3C4',
     			'phone' => '(647) 352-2786'
     		],
     		[	
     			'id' => 'neo',
     			'name' => 'Neo Coffee Bar',
-    			'description' => '“The Neo Blend, we are working with deMello Palheta Coffee Roasters to makethe house espresso… It’s trying to fi nd abalance of something that is good with milkbut also has the fruitiness and chocolate,”explained Nakagome about their customblend.',
+    			'description' => '“The Neo Blend, we are working with de Mello Palheta Coffee Roasters to make the house espresso… It’s trying to find abalance of something that is good with milk but also has the fruitiness and chocolate,” explained Nakagome about their custom blend.',
     			'address' => '100-161 Frederick St Toronto, ONM5A 4P1',
     			'phone' => '(647) 348-8811'
     		],
