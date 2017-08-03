@@ -25,7 +25,7 @@ class TourOverview extends Model
     		[	
     			'id' => 'neo',
     			'name' => 'Neo Coffee Bar',
-    			'description' => '“The Neo Blend, we are working with de Mello Palheta Coffee Roasters to make the house espresso… It’s trying to find abalance of something that is good with milk but also has the fruitiness and chocolate,” explained Nakagome about their custom blend.',
+    			'description' => '“The Neo Blend, we are working with de Mello Palheta Coffee Roasters to make the house espresso… It’s trying to find a balance of something that is good with milk but also has the fruitiness and chocolate,” explained Nakagome about their custom blend.',
     			'address' => '100-161 Frederick St Toronto, ONM5A 4P1',
     			'phone' => '(647) 348-8811'
     		],
@@ -74,7 +74,7 @@ class TourOverview extends Model
 			[
     			'id' => 'voodoo',
     			'name' => 'Voodoo Child',
-    			'description' => 'Voodoo Child is a multi-roaster café with a menu that always has two espressos on offer. It changes with the seasonality of coff ee. However, one choice will feature more of a classic flavour profile and the other will be more adventurous and fruit-forward.',
+    			'description' => 'Voodoo Child is a multi-roaster café with a menu that always has two espressos on offer. It changes with the seasonality of coffee. However, one choice will feature more of a classic flavour profile and the other will be more adventurous and fruit-forward.',
     			'address' => '388 College St Toronto, ON M5T 1S7',
     			'phone' => '(647) 748-1011'
 			],
@@ -88,7 +88,7 @@ class TourOverview extends Model
 			[
     			'id' => 'lit',
     			'name' => 'Lit Espresso Bar',
-    		 	'description' => '“We want to create a coffee that’s super sweet and super balanced. We still want you to taste the notes from origin, but that’s kind of secondary to the balance and sweetness that we want out of our coffees. That’s not to say we want to destroy everything that you should taste in origin, but we think that it’s much more approachable this way,”',
+    		 	'description' => '“We want to create a coffee that’s super sweet and super balanced. We still want you to taste the notes from origin, but that’s kind of secondary to the balance and sweetness that we want out of our coffees. That’s not to say we want to destroy everything that you should taste in origin, but we think that it’s much more approachable this way.”',
     			'address' => '1517 Bayview Ave East York, ON M4G 3B5',
     			'phone' => ''
 			],
