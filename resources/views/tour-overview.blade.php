@@ -9,7 +9,7 @@
         <div class="tour-overview__card {{ $stop['id'] }}">
             <h3>{{ $stop['name']  }}</h3>
             <p>{{ $stop['description'] }}</p>
-            <div>{{ $stop['address'] }}</div>
+            <div class="text-bold">{{ $stop['address'] }}</div>
             <p>{{ $stop['phone'] }}</p>
         </div>
     @endforeach
