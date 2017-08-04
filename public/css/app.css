@@ -8599,6 +8599,19 @@ small,
   width: 150px;
 }
 
+.inline-x:after {
+  background-image: url("/img/yellow-x.svg");
+  background-size: contain;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  left: 17.4rem;
+  bottom: 1rem;
+  z-index: -1;
+}
+
 .yellow-x {
   background: url("/img/yellow-x.svg");
   background-repeat: no-repeat;
@@ -8622,6 +8635,27 @@ small,
 .yellow-x--top-right {
   top: -1rem;
   right: 3rem;
+}
+
+.yellow-x--bottom-right {
+  bottom: 1rem;
+  right: 3rem;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.p-static {
+  position: static;
 }
 
 .banner {

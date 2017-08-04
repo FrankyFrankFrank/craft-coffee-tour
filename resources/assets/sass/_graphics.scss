@@ -1,3 +1,18 @@
+.inline-x {
+	&:after {
+		background-image: url('/img/yellow-x.svg');
+		background-size: contain;
+		content: '';
+		display: inline-block;
+		position: absolute;
+		height: 60px;
+		width: 60px;
+		left: 17.4rem;
+		bottom: 1rem;
+		z-index: -1;
+	} 
+}
+
 .yellow-x {
 	background: url('/img/yellow-x.svg');
 	background-repeat: no-repeat;
@@ -19,6 +34,11 @@
 	
 	&--top-right {
 		top: -1rem;
+		right: 3rem;
+	}
+
+	&--bottom-right {
+		bottom: 1rem;
 		right: 3rem;
 	}
 }
