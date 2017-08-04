@@ -1,15 +1,25 @@
 .flex {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: flex-start;
 
 	&-half {
 		flex: 50% 1 1;
+	}
+
+	&column {
+		display: flex;
+		flex-direction: column;
 	}
 }
 
 .justify {
 	&-sa {
 		justify-content: space-around;
+	}
+
+	&-sb {
+		justify-content: space-between;
 	}
 
 	&-start {
@@ -25,5 +35,15 @@
 
 	&-center {
 		align-items: center;
+	}
+
+	&-stretch {
+		align-items: stretch;
+	}
+}
+
+.alignself {
+	&-end {
+		align-self: flex-end;
 	}
 }

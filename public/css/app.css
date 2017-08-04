@@ -8358,6 +8358,10 @@ button.close {
   background-color: #d7d8db;
 }
 
+.white-bg {
+  background-color: #f2f2f3;
+}
+
 .light-grey-bg {
   background-color: #e2e2e4;
 }
@@ -8554,12 +8558,31 @@ small,
   margin-bottom: 4rem;
 }
 
+.mr-tiny {
+  margin-right: .3rem;
+}
+
+.mr-sm {
+  margin-right: 1rem;
+}
+
+.mr-med {
+  margin-right: 2rem;
+}
+
+.mr-lrg {
+  margin-right: 4rem;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .flex-half {
@@ -8568,9 +8591,25 @@ small,
           flex: 50% 1 1;
 }
 
+.flexcolumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .justify-sa {
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.justify-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .justify-start {
@@ -8589,6 +8628,17 @@ small,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.align-stretch {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.alignself-end {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .navbar {
@@ -8656,6 +8706,10 @@ small,
 
 .p-static {
   position: static;
+}
+
+.nodeco:hover {
+  text-decoration: none;
 }
 
 .banner {
@@ -9069,6 +9123,15 @@ small,
         -ms-flex-order: 1;
             order: 1;
   }
+}
+
+.stop-list {
+  display: inline-block;
+  border-bottom: #d1d3d6 1px solid;
+}
+
+.stop-list:hover {
+  border-bottom: #1b3365 1px solid;
 }
 
 .tour-overview__card {

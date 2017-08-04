@@ -134,3 +134,22 @@
 		margin-bottom: 4rem;
 	}
 }
+
+.mr- {
+
+	&tiny {
+		margin-right: .3rem;
+	}
+
+	&sm {
+		margin-right: 1rem;
+	}
+
+	&med {
+		margin-right: 2rem;
+	}
+
+	&lrg {
+		margin-right: 4rem;
+	}
+}
