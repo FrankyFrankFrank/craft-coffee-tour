@@ -16,7 +16,7 @@
         </div>
         <div class="flex">
         @foreach($stops as $stop)
-            <div id="{{ $stop['id'] }}" class="tour-overview__card flexcolumn white-bg mb-sm padded-tiny">
+            <div id="{{ $stop['id'] }}" class="tour-overview__card flexcolumn white-bg mb-sm padded-sm">
                 <h3>{{ $stop['name'] }}</h3>
                 <div class="text-bold">{{ $stop['address'] }}</div>
                 <p>{{ $stop['phone'] }}</p>

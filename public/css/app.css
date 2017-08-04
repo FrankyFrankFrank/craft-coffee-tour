@@ -9137,8 +9137,8 @@ small,
 .tour-overview__card {
   -ms-flex-negative: 1;
       flex-shrink: 1;
-  -ms-flex-preferred-size: 240px;
-      flex-basis: 240px;
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
   margin-right: 1.677rem;
 }
 
