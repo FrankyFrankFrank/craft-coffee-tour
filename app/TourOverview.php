@@ -42,7 +42,7 @@ class TourOverview extends Model
 			],
 			[
     			'id' => 'de-mello',
-    			'name' => 'DE MELLO PALHETA COFFEE ROASTERS X Merchant Sons',
+    			'name' => 'De Mello Palheta Coffee Roasters',
     			'description' => 'Pushing the envelope in café design is new to de Mello, who would be more used to stretching themselves on the roasting side with one of the most expansive roasted coffee menus. They are consistently bringing in new coffees for their customers and cafés to dig into.',
     			'address' => '273 Richmond St W Toronto, ONM5V 1X1',
     			'phone' => '(416) 506-3131',
