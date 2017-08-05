@@ -8649,6 +8649,12 @@ small,
   width: 150px;
 }
 
+.inline-x {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
 .inline-x:after {
   background-image: url("/img/yellow-x.svg");
   background-size: contain;
@@ -8657,8 +8663,7 @@ small,
   position: absolute;
   height: 60px;
   width: 60px;
-  left: 17.4rem;
-  bottom: 1rem;
+  right: 2rem;
   z-index: -1;
 }
 
@@ -9115,7 +9120,7 @@ small,
   }
 
   .banner__message h1 {
-    font-size: 2.369rem;
+    font-size: 1.769rem;
   }
 
   .roasters-pack .description-wrapper {
