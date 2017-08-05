@@ -37,6 +37,6 @@
 
 @section('scripts')
     <script>
-        fbq('track', 'ViewContent');
+        fbq('track', 'Tour Overview');
     </script>
 @endsection
