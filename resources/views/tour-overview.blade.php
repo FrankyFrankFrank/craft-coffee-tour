@@ -21,6 +21,10 @@
                 <div class="text-bold">{{ $stop['address'] }}</div>
                 <p>{{ $stop['phone'] }}</p>
                 <p>{{ $stop['description'] }}</p>
+                <div class="tour-overview__drink">
+                <small>At This Stop:</small>
+                <p><b><i class="fa fa-coffee" aria-hidden="true"></i> {{ $stop['drink'] }}</b></p>
+                </div>
                 @if(isset($stop['image']))
                 <img class="img-responsive" src="{{ asset('img/' . $stop['image']) }}" alt="{{ $stop['name'] }}"/>
                 @endif

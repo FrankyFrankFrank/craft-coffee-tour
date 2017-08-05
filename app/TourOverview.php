@@ -42,7 +42,7 @@ class TourOverview extends Model
     			'address' => '1413 Dundas St W Toronto, ON M6J 1Y4',
     			'phone' => '',
                 'image' => 'img-overview-tucana.jpg',
-                'drink' => 'Cappucino (or Espress)'
+                'drink' => 'Cappucino (or Espresso)'
 			],
 			[
     			'id' => 'de-mello',
