@@ -34,3 +34,9 @@
     </div>
 </div>
 @endsection
+
+@section('scripts')
+    <script>
+        fbq('track', 'ViewContent');
+    </script>
+@endsection
