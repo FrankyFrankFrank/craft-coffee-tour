@@ -19,7 +19,7 @@ class CuppingSignupTest extends TestCase
     	$user = factory(User::class)->create();
 
     	// Timeslot can have x number of users
-    	$cupping_timeslot = factory(Timeslot::class)->create();
+    	$timeslot = factory(Timeslot::class)->create();
 
     	$user->reserve($timeslot);
 
