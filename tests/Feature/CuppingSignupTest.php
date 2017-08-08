@@ -25,4 +25,19 @@ class CuppingSignupTest extends TestCase
 
     	$this->assertEquals($user->name, $timeslot->users->first()->name);
     }
+
+    /** @test **/
+    public function limited_users_can_rsvp_to_cupping() {
+    	$users = factory(User::class, 20)->create();
+
+    	$timeslot = factory(Timeslot::class)->create([
+    		'guest_limit' => 10
+		]);
+
+		$users->each(function($user) use ($timeslot) {
+			$user->reserve($timeslot);
+		});
+
+		$this->assertCount(10, $timeslot->users()->get());
+    }
 }

@@ -25,4 +25,14 @@ class TimeslotTest extends TestCase
 		$this->assertCount(10, $timeslot->users()->get());
 
 	}
+
+		/** @test **/
+	public function timeslot_has_guest_limit() {
+		$timeslot = factory(Timeslot::class)->create([
+			'guest_limit' => 10
+		]);
+
+		$this->assertEquals(10, $timeslot->guest_limit);
+
+	}
 }

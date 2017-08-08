@@ -22,4 +22,14 @@ class UserTest extends TestCase
 
     	$this->assertEquals($user->name, $timeslot->users()->first()->name);
     }
+
+    /** @test **/
+    public function reserve_a_timeslot() {
+    	$user = factory(User::class)->create();
+    	$timeslot = factory(Timeslot::class)->create();
+
+    	$user->reserve($timeslot);
+
+    	$this->assertEquals($user->name, $timeslot->users()->first()->name);
+    }
 }

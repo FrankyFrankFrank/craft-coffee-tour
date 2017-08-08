@@ -36,6 +36,9 @@ class User extends Authenticatable
 
     public function reserve($timeslot)
     {
+        if($timeslot->full()) {
+            return;
+        }
         $timeslot->users()->save($this);
     }
 }
