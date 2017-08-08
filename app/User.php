@@ -29,8 +29,13 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    public function timeslot()
+    {
+        return $this->belongsTo('App\Timeslot');
+    }
+
     public function reserve($timeslot)
     {
-        
+        $timeslot->users()->save($this);
     }
 }
