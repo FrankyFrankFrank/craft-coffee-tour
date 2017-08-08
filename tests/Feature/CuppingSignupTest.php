@@ -40,4 +40,18 @@ class CuppingSignupTest extends TestCase
 
 		$this->assertCount(10, $timeslot->users()->get());
     }
+
+	/** @test **/
+	public function can_reserve_timeslot_with_no_limit() {
+		$user = factory(User::class)->create();
+
+    	$timeslot = factory(Timeslot::class)->create([
+    		'guest_limit' => null
+		]);
+
+		$user->reserve($timeslot);
+
+		$this->assertCount(1, $timeslot->users()->get());
+	}
+
 }
