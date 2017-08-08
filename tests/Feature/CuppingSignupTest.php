@@ -7,16 +7,19 @@ use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
+use \App\User;
+use \App\Timeslot;
+
 class CuppingSignupTest extends TestCase
 {
     use DatabaseMigrations;
 
     /** @test **/
     public function user_can_rsvp_to_cupping() {
-    	$user = factory(App\User::class)->create();
+    	$user = factory(User::class)->create();
 
     	// Timeslot can have x number of users
-    	$cupping_timeslot = factory(App\Timeslot::class)->create();
+    	$cupping_timeslot = factory(Timeslot::class)->create();
 
     	$user->reserve($timeslot);
 
