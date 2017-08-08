@@ -23,6 +23,6 @@ class CuppingSignupTest extends TestCase
 
     	$user->reserve($timeslot);
 
-    	$this->assertContains($user, $timeslot->users);
+    	$this->assertEquals($user->name, $timeslot->users->first()->name);
     }
 }
