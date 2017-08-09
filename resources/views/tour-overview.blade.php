@@ -11,12 +11,12 @@
         </div>
         <div class="mt-sm">
             @foreach($stops as $stop)
-                <p class="stop-list mr-med"><a class="nodeco" href="{{ '#' . $stop['id']  }}">{{ $stop['name'] }}</a></p>
+                <p class="stop-list mr-med"><a class="nodeco" href="{{ '#' . $stop['shortname']  }}">{{ $stop['name'] }}</a></p>
             @endforeach
         </div>
         <div class="flex">
         @foreach($stops as $stop)
-            <div id="{{ $stop['id'] }}" class="tour-overview__card flexcolumn white-bg mb-sm padded-sm">
+            <div id="{{ $stop['shortname'] }}" class="tour-overview__card flexcolumn white-bg mb-sm padded-sm">
                 <h3>{{ $stop['name'] }}</h3>
                 <div class="text-bold">{{ $stop['address'] }}</div>
                 <p>{{ $stop['phone'] }}</p>
