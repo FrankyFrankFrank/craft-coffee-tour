@@ -17,7 +17,7 @@ class CreateLocationsTableSecond extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('shortname');
-            $table->string('description');
+            $table->longtext('description');
             $table->string('address');
             $table->string('phone');
             $table->string('image');

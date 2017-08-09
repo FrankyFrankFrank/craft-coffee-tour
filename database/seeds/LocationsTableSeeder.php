@@ -21,7 +21,6 @@ class LocationsTableSeeder extends Seeder
         	'drink' => 'Single-Origin Pourover (or Single Origin Espresso)'
         ]);
 
-        
         DB::table('locations')->insert([
     			'shortname' => 'arvo',
     			'name' => 'Arvo Coffee',

@@ -11,11 +11,12 @@ use App\Location;
 class LocationTest extends TestCase
 {
 	use DatabaseMigrations;
-	
+
     /** @test **/
     public function can_create_locations() {
+    	$currentLocationCount = count(Location::all());
     	$locations = factory(Location::class, 13)->create();
 
-    	$this->assertCount(13, Location::all());
+    	$this->assertSame(13, count(Location::all()) - $currentLocationCount);
     }
 }
