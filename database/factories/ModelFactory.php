@@ -22,3 +22,10 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Timeslot::class, function (Faker\Generator $faker) {
+	return [
+		'datetime' => $faker->dateTimeBetween('+20 days','+60 days', date_default_timezone_get())
+	];
+});
