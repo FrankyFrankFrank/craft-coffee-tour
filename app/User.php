@@ -5,6 +5,8 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
+use App\Timeslot;
+
 class User extends Authenticatable
 {
     use Notifiable;
@@ -26,4 +28,17 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function timeslot()
+    {
+        return $this->belongsTo('App\Timeslot');
+    }
+
+    public function reserve($timeslot)
+    {
+        if($timeslot->full()) {
+            return;
+        }
+        $timeslot->users()->save($this);
+    }
 }

@@ -20,4 +20,6 @@ Route::get('/overview', function(){
 	return view('tour-overview', ['stops' => $stops]);
 })->name('overview');
 
+Route::get('/rsvp', 'RsvpController@index');
+
 Route::get('/home', 'HomeController@index')->name('home');
