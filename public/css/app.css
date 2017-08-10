@@ -8455,11 +8455,11 @@ small,
 }
 
 .padded-med {
-  padding-top: 2.365rem;
+  padding: 2.365rem;
 }
 
 .padded-lrg {
-  padding-top: 5rem;
+  padding: 5rem;
 }
 
 .pt-tiny {
@@ -9171,6 +9171,13 @@ small,
 .location__info-card {
   -ms-flex-preferred-size: 200px;
       flex-basis: 200px;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.location__article {
+  -ms-flex-preferred-size: 700px;
+      flex-basis: 700px;
   -ms-flex-negative: 1;
       flex-shrink: 1;
 }

@@ -22,6 +22,9 @@ class CreateLocationsTableSecond extends Migration
             $table->string('phone');
             $table->string('image');
             $table->string('drink');
+            $table->longtext('article');
+            $table->string('feature_image');
+            $table->string('soundcloud')->nullable();
             $table->timestamps();
         });
     }

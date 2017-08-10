@@ -17,7 +17,7 @@
         <div class="flex">
         @foreach($locations as $location)
             <div id="{{ $location['shortname'] }}" class="tour-overview__card flexcolumn white-bg mb-sm padded-sm">
-                <h3>{{ $location['name'] }}</h3>
+                <h3><a href="/locations/{{ $location->id }}">{{ $location['name'] }}</a></h3>
                 <div class="text-bold">{{ $location['address'] }}</div>
                 <p>{{ $location['phone'] }}</p>
                 <p>{{ $location['description'] }}</p>
