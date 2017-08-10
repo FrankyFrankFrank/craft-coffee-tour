@@ -3,7 +3,7 @@
 @section('content')
 <div class="banner container-fluid">
     <div class="banner__message">
-        <h1>The Ultimate Toronto Coffee Tasting</h2>
+        <h1>The Ultimate Toronto Coffee Tasting</h1>
         <p class="medium text-center pt-lrg">
             A self-guided tour of the best craft coffee in Toronto<br/>
             August 1, 2017 - November 30, 2017
