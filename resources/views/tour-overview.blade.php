@@ -10,23 +10,23 @@
             <h1 class="mt-lrg inline-x">Tour Overview</h1>
         </div>
         <div class="mt-sm">
-            @foreach($stops as $stop)
-                <p class="stop-list mr-med"><a class="nodeco" href="{{ '#' . $stop['shortname']  }}">{{ $stop['name'] }}</a></p>
+            @foreach($locations as $location)
+                <p class="stop-list mr-med"><a class="nodeco" href="{{ '#' . $location['shortname']  }}">{{ $location['name'] }}</a></p>
             @endforeach
         </div>
         <div class="flex">
-        @foreach($stops as $stop)
-            <div id="{{ $stop['shortname'] }}" class="tour-overview__card flexcolumn white-bg mb-sm padded-sm">
-                <h3>{{ $stop['name'] }}</h3>
-                <div class="text-bold">{{ $stop['address'] }}</div>
-                <p>{{ $stop['phone'] }}</p>
-                <p>{{ $stop['description'] }}</p>
+        @foreach($locations as $location)
+            <div id="{{ $location['shortname'] }}" class="tour-overview__card flexcolumn white-bg mb-sm padded-sm">
+                <h3>{{ $location['name'] }}</h3>
+                <div class="text-bold">{{ $location['address'] }}</div>
+                <p>{{ $location['phone'] }}</p>
+                <p>{{ $location['description'] }}</p>
                 <div class="tour-overview__drink">
                 <small>At This Stop:</small>
-                <p><b><i class="fa fa-coffee" aria-hidden="true"></i> {{ $stop['drink'] }}</b></p>
+                <p><b><i class="fa fa-coffee" aria-hidden="true"></i> {{ $location['drink'] }}</b></p>
                 </div>
-                @if(isset($stop['image']))
-                <img class="img-responsive" src="{{ asset('img/' . $stop['image']) }}" alt="{{ $stop['name'] }}"/>
+                @if(isset($location['image']))
+                <img class="img-responsive" src="{{ asset('img/' . $location['image']) }}" alt="{{ $location['name'] }}"/>
                 @endif
             </div>
         @endforeach
