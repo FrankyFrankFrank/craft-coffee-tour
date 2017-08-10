@@ -69,7 +69,7 @@ class SeedLocationsTable extends Migration
                 'article' => 'Bursting with personality and Cuban-inspired designs, Tucana Coffee is more than just a nice looking shop. Tenille Clarke, owner and operator at Tucana Coffee, spent four years perfecting her craft at Te Aro and working with Pilot Coffee before she started her own shop. “I think the fact that we’re so determined to make sure that every single drink is made really, really well… I know everyone who works here really puts a lot of care into the drinks that they serve and it’s a different shop. It’s really small, we don’t have a crazy impressive space, but what we’re able to do in the space I think is impressive in itself and I think that’s why we stand out.” Tucana is adamant about proper parameters. It’s all measured. “You’ll notice in our shop that the baristas manually dose almost every shot that they pull. They use a scale for every shot that they pull and a timer, so they know how that shot is going to taste before they serve it to the customer.”'
             ],
             [
-                'shortname' => 'de-mello',
+                'shortname' => 'dmp',
                 'name' => 'De Mello Palheta Coffee Roasters',
                 'description' => 'Pushing the envelope in café design is new to de Mello, who would be more used to stretching themselves on the roasting side with one of the most expansive roasted coffee menus. They are consistently bringing in new coffees for their customers and cafés to dig into.',
                 'address' => '273 Richmond St W Toronto, ONM5V 1X1',
