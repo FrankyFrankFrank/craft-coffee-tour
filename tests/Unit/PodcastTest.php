@@ -19,4 +19,5 @@ class PodcastTest extends TestCase
 
     	$this->assertCount(1, Podcast::all());
     }
+
 }
