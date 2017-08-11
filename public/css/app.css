@@ -8382,7 +8382,7 @@ h6 {
 }
 
 html {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 body {
@@ -8440,6 +8440,10 @@ small,
 
 .text-plain:hover {
   text-decoration: none;
+}
+
+.blue {
+  color: #1b3365;
 }
 
 .full-width {

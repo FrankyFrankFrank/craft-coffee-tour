@@ -13,12 +13,14 @@
                     <h1 class="inline-x">{{ $location->name }}</h1>
                 </div>
                 <p>{{$location->article}}</p>
+                @if(isset($podcast))
                 <iframe 
                     width="100%" 
                     height="60" 
-                    src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Faumbreath%2Fdowntempo-chill-jazzy-jack-rabbits-palace-twin-peaks-audible-adventure%2F&hide_cover=1&mini=1&light=1" 
+                    src="https://www.mixcloud.com/widget/iframe/?feed={{rawurlencode($podcast->src)}}&hide_cover=1&mini=1&light=1" 
                     frameborder="0">
                 </iframe>
+                @endif
             </div>
             <div class="white-bg mb-sm padded-sm location__info-card">
                 <div class="text-bold">{{ $location->address }}</div>

@@ -25,5 +25,6 @@ Route::get('/{shortname}', function($shortname){
     if (!$location) {
         return redirect()->route('landing');
     }
-   return view('locations.show', ['location' => $location]);
+    $podcast = $location->podcasts()->first();
+   return view('locations.show', ['location' => $location, 'podcast' => $podcast]);
 });

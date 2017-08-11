@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "acier-bat-solid";
 }
 
-html {font-size: 1.1rem;}
+html {font-size: 1rem;}
 
 body {
   font-family: "source-sans-pro", sans-serif;
@@ -47,4 +47,8 @@ small, .font_small {font-size: 0.75rem;}
   &:hover {
     text-decoration: none;
   }
+}
+
+.blue {
+  color: $blue;
 }

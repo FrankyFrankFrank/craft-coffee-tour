@@ -20,6 +20,11 @@
                 <h3><a href="/{{ $location->shortname }}">{{ $location->name }}</a></h3>
                 <div class="text-bold">{{ $location->address }}</div>
                 <p>{{ $location->phone }}</p>
+
+                @if(count($location->podcasts))
+                    <p class="text-heavy blue small yellow-bg padded-tiny"><i class="fa fa-headphones" aria-hidden="true"></i> Podcast Available</p>
+                @endif
+
                 <p>{{ $location->description }}</p>
                 <div class="tour-overview__drink">
                 <small>At This Stop:</small>
