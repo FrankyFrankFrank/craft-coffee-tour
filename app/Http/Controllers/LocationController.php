@@ -50,8 +50,9 @@ class LocationController extends Controller
     public function show($id)
     {
         $location = Location::find($id);
+        $podcast = $location->podcasts()->first();
 
-        return view('locations.show', ['location' => $location]);
+        return view('locations.show', ['location' => $location, 'podcast' => $podcast]);
     }
 
     /**
