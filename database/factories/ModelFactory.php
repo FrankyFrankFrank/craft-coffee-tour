@@ -44,3 +44,11 @@ $factory->define(App\Location::class, function (Faker\Generator $faker) {
         'feature_image' => 'fake-feature-image.jpg'
     ];
 });
+
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Podcast::class, function (Faker\Generator $faker) {
+    return [
+        'title' => $faker->text(90),
+        'src'=> $faker->url,
+    ];
+});

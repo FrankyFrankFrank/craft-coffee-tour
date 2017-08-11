@@ -32,7 +32,6 @@ class LocationTest extends TestCase
     		'feature_image' => 'fancy-image.jpg',
     		'drink' => 'Fake Drink',
     		'article' => 'Example Article',
-    		'soundcloud' => null,
     	]);
 
     	$this->assertEquals('examplecafe', Location::find($location->id)->shortname);

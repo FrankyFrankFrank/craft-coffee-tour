@@ -24,7 +24,6 @@ class CreateLocationsTable extends Migration
             $table->string('drink');
             $table->longtext('article');
             $table->string('feature_image');
-            $table->string('soundcloud')->nullable();
             $table->timestamps();
         });
     }
