@@ -15,19 +15,15 @@ Auth::routes();
 
 Route::get('/', function(){ return view('landing-page'); })->name('landing');
 
-Route::get('/overview', function(){ 
-	$locations = App\Location::all();
-	return view('tour-overview', ['locations' => $locations]);
-})->name('overview');
-
-Route::get('/locations', 'LocationController@index');
+Route::get('/locations', 'LocationController@index')->name('overview');;
 Route::get('/locations/{id}', 'LocationController@show');
 Route::get('/rsvp', 'RsvpController@index');
 Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/{shortname}', function($shortname){
 	$location = App\Location::where('shortname', $shortname)->first();
     if (!$location) {
         return redirect()->route('landing');
     }
-    return redirect('/locations/' . $location->id);
+   return view('locations.show', ['location' => $location]);
 });
