@@ -6,7 +6,7 @@
 
 <div class="container-fluid light-grey-bg">
     <div class="container">
-        <p class="mt-lrg"><a href="/locations"><a href="/locations"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back to Locations</a></p>
+        <p class="mt-lrg"><a href="/locations"><a href="/locations"><i class="fa fa-chevron-left" aria-hidden="true"></i> All Locations</a></p>
         <div class="flex pb-lrg">
             <div class="white-bg mb-sm mr-sm padded-med location__article">
                 <div class="p-relative">
