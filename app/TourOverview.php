@@ -9,7 +9,7 @@ class TourOverview extends Model
     function __construct() {
     	$this->stops = [
     		[
-    			'id' => 'propeller',
+    			'shortname' => 'propeller',
     			'name' => 'Propeller Coffee Co.',
     			'description' => '“We look for unique coffees, and obviously really high scoring, high quality and with no defects. But we’re looking for unique coffees.”',
     			'address' => '50 Wade Ave Toronto, ON M6H 2Z3',
@@ -18,7 +18,7 @@ class TourOverview extends Model
                 'drink' => 'Single-Origin Pourover (or Single Origin Espresso)'
     		],
     		[
-    			'id' => 'arvo',
+    			'shortname' => 'arvo',
     			'name' => 'Arvo Coffee',
     			'description' => 'At Arvo Coffee, one of the main tenets is the emphasis on creativity. The menu features the staples as well as a rotatingselection of seasonal beverages that push the boundaries like their Hopped Cold Brew, HotDate Latte or Cascara Lemonade. Often, these unique drinks aredesigned by the baristas behind the bar.',
     			'address' => '17 Gristmill Lane Toronto, ON M5A 3C4',
@@ -27,7 +27,7 @@ class TourOverview extends Model
                 'drink' => 'Coffee Cupping'
     		],
     		[	
-    			'id' => 'neo',
+    			'shortname' => 'neo',
     			'name' => 'Neo Coffee Bar',
     			'description' => '“The Neo Blend, we are working with de Mello Palheta Coffee Roasters to make the house espresso… It’s trying to find a balance of something that is good with milk but also has the fruitiness and chocolate,” explained Nakagome about their custom blend.',
     			'address' => '100-161 Frederick St Toronto, ONM5A 4P1',
@@ -36,7 +36,7 @@ class TourOverview extends Model
                 'drink' => 'Cappuccino (or Medium Drip Coffee)'
     		],
     		[
-    			'id' => 'tucana',
+    			'shortname' => 'tucana',
     			'name' => 'Tucana Coffee',
     			'description' => '“You’ll notice in our shop that the baristas manually dose almost every shot that they pull. They use a scale for every shot that they pull and a timer, so they know how that shot is going to taste before they serve it to the customer.”',
     			'address' => '1413 Dundas St W Toronto, ON M6J 1Y4',
@@ -45,7 +45,7 @@ class TourOverview extends Model
                 'drink' => 'Cappucino (or Espresso)'
 			],
 			[
-    			'id' => 'de-mello',
+    			'shortname' => 'de-mello',
     			'name' => 'De Mello Palheta Coffee Roasters',
     			'description' => 'Pushing the envelope in café design is new to de Mello, who would be more used to stretching themselves on the roasting side with one of the most expansive roasted coffee menus. They are consistently bringing in new coffees for their customers and cafés to dig into.',
     			'address' => '273 Richmond St W Toronto, ONM5V 1X1',
@@ -54,7 +54,7 @@ class TourOverview extends Model
                 'drink' => '12oz Latte (Milk, Soy or Almond Milk)'
 			],
 			[
-    			'id' => 'jacked-up',
+    			'shortname' => 'jacked-up',
     			'name' => 'Jacked Up Coffee Truck',
     			'description' => 'The Jacked Up Coffee truck is the brainchild of owner and operator, Jack Provan and very much reflective of his somewhat nomadic nature, as he was a barista in London, Melbourne and finally settled down here in Toronto.',
     			'address' => '144 Yorkville Ave Toronto, ON M5R 1C2',
@@ -63,7 +63,7 @@ class TourOverview extends Model
                 'drink' => 'Flat White (or Americano or Espresso)'
 			],
 			[
-    			'id' => 'sorry',
+    			'shortname' => 'sorry',
     			'name' => 'Sorry Coffee Co.',
     			'description' => '“The variety that’s introduced with our coffee program keeps things fresh and interesting for our staff and our more informed and discerning guests,”',
     			'address' => '102 Bloor St W Toronto, ON M5S 1M8',
@@ -72,7 +72,7 @@ class TourOverview extends Model
                 'drink' => 'Flat White (or Cortado or Americano)'
 			],
             [
-                'id' => 'boxcar',
+                'shortname' => 'boxcar',
                 'name' => 'Boxcar Social',
                 'description' => '“We get excited! When different expressions of Kenyan coffee, Ethiopian coffees seasonally come through. Our whole business model is about sharing that excitement.”',
                 'address' => '4 Boulton Ave Toronto, ON M4M 2J3',
@@ -81,7 +81,7 @@ class TourOverview extends Model
                 'drink' => '2 x Pourovers & Cascara Tea (Tasting Flight)'
             ],
 			[
-    			'id' => 'coffee-lab',
+    			'shortname' => 'coffee-lab',
     			'name' => 'The Coffee Lab',
     			'description' => 'Tucked into the Annex Willow Books store, Campos has one of the more ambitious coffee programs and is continually bringing in coffee from international roasters – whether it’s Glitch Coffee Roasters from Japan or another roaster that is intriguing him at the moment.',
     			'address' => '333 Bloor St W Toronto, ON M5S 1W7',
@@ -90,7 +90,7 @@ class TourOverview extends Model
                 'drink' => '“The Drop” (or “The 6”) signature drink'
 			],
 			[
-    			'id' => 'hotblack',
+    			'shortname' => 'hotblack',
     			'name' => 'Hotblack Coffee',
     			'description' => 'Kishi has quite the storied past with specialty coffee, formerly working at Dark Horse Espresso & Detour Coffee Roasters prior to opening HotBlack Coffee with business partner Jimson Bienenstock. She frequently competed (and did quite well) in barista competitions where competitors are tested on three things: espresso, milk-based drinks and a signature drink.',
     			'address' => '245 Queen St W Toronto, ON M5V 1Z4',
@@ -99,7 +99,7 @@ class TourOverview extends Model
                 'drink' => '“Green Eye” Mint Infused Cold Brew Signature Drink (or Coffee Popsicle, or 12oz Coffee)'
 			],
 			[
-    			'id' => 'voodoo',
+    			'shortname' => 'voodoo',
     			'name' => 'Voodoo Child Espresso',
     			'description' => 'Voodoo Child is a multi-roaster café with a menu that always has two espressos on offer. It changes with the seasonality of coffee. However, one choice will feature more of a classic flavour profile and the other will be more adventurous and fruit-forward.',
     			'address' => '388 College St Toronto, ON M5T 1S7',
@@ -108,7 +108,7 @@ class TourOverview extends Model
                 'drink' => 'Espresso'
 			],
 			[
-    			'id' => 'pilot',
+    			'shortname' => 'pilot',
     			'name' => 'Pilot Coffee Roasters',
     			'description' => 'Brett Johnston, Head of Innovation at Pilot Coffee Roasters was responsible for designing their Cold Brew program and left no stone unturned when trying to develop their recipe and processes : whether it was trying hot brew and a flash chill, a hot bloom and a cold crash of water, using ambient water for 6-12 hours or trying the Japanese Iced Coffee method.',
     			'address' => '50 Wagstaff Dr Toronto, ON M4L 3W9',
@@ -117,7 +117,7 @@ class TourOverview extends Model
                 'drink' => 'Cold Brew'
 			],
 			[
-    			'id' => 'lit',
+    			'shortname' => 'lit',
     			'name' => 'Lit Espresso Bar',
     		 	'description' => '“We want to create a coffee that’s super sweet and super balanced. We still want you to taste the notes from origin, but that’s kind of secondary to the balance and sweetness that we want out of our coffees. That’s not to say we want to destroy everything that you should taste in origin, but we think that it’s much more approachable this way.”',
     			'address' => '1517 Bayview Ave East York, ON M4G 3B5',

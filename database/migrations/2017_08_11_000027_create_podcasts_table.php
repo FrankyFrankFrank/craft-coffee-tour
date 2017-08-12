@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddTimeslotIdColumn extends Migration
+class CreatePodcastsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,11 @@ class AddTimeslotIdColumn extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->unsignedInteger('timeslot_id')->nullable();
-            $table->foreign('timeslot_id')->references('id')->on('timeslots');
+        Schema::create('podcasts', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('title');
+            $table->string('src');
+            $table->timestamps();
         });
     }
 
@@ -26,8 +28,6 @@ class AddTimeslotIdColumn extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropForeign(['timeslot_id']);
-        });
+        Schema::dropIfExists('podcasts');
     }
 }

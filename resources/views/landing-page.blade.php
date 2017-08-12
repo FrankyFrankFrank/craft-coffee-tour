@@ -3,7 +3,7 @@
 @section('content')
 <div class="banner container-fluid">
     <div class="banner__message">
-        <h1>The Ultimate Toronto Coffee Tasting</h2>
+        <h1>The Ultimate Toronto Coffee Tasting</h1>
         <p class="medium text-center pt-lrg">
             A self-guided tour of the best craft coffee in Toronto<br/>
             August 1, 2017 - November 30, 2017
@@ -67,7 +67,7 @@
                 <h3>Visit and Redeem</h3>
                 <p>Bring your booklet and at each stop you receive a coffee drink or experience.</p>
                 <p>Whether it’s a Single Origin Pourover, a Flat White, Cascara Tea or a VIP Coffee Cuppings – it’s all about sharing with you the best specialty drinks in Toronto.</p>
-                <p><a class="btn btn-default" href="/overview" target="_blank">Check out the full tour here.</a></p>
+                <p><a class="btn btn-default" href="{{ route('overview') }}" target="_blank">Check out the full tour here.</a></p>
                 <p>Over $60 worth of coffee drinks and experiences, for only $27.95. Visit the stops on your own time, from August 1<sup>st</sup> to November 30<sup>th</sup>, 2017.</p>
             </div>
             <div class="experience__image">

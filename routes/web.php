@@ -11,15 +11,20 @@
 |
 */
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/', function(){ return view('landing-page'); })->name('landing');
 
-Route::get('/overview', function(){ 
-	$stops = app('App\TourOverview')->stops;
-	return view('tour-overview', ['stops' => $stops]);
-})->name('overview');
-
+Route::get('/locations', 'LocationController@index')->name('overview');;
+Route::get('/locations/{id}', 'LocationController@show');
 Route::get('/rsvp', 'RsvpController@index');
-
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/{shortname}', function($shortname){
+	$location = App\Location::where('shortname', $shortname)->first();
+    if (!$location) {
+        return redirect()->route('landing');
+    }
+    $podcast = $location->podcasts()->first();
+   return view('locations.show', ['location' => $location, 'podcast' => $podcast]);
+});
