@@ -46,7 +46,8 @@
           "variantTitle": false,
           "price": false,
           "description": false,
-          "buttonWithQuantity": false,
+          "buttonWithQuantity": true,
+          "button": false,
           "quantity": false
         },
         "text": {
@@ -57,13 +58,13 @@
             "@media (min-width: 601px)": {
               "max-width": "100%",
               "margin-left": "0",
-              "margin-bottom": "50px"
+              "margin-bottom": "40px"
             }
           },
           "button": {
             "background-color": "#1b3365",
-            "padding-left": "64px",
-            "padding-right": "64px",
+            "padding-left": "40px",
+            "padding-right": "40px",
             ":hover": {
               "background-color": "#2e57ac"
             },
@@ -123,7 +124,8 @@
           "img": false,
           "imgWithCarousel": true,
           "variantTitle": false,
-          "buttonWithQuantity": false,
+          "buttonWithQuantity": true,
+          "button": false,
           "quantity": false
         },
         "styles": {
@@ -136,8 +138,8 @@
           },
           "button": {
             "background-color": "#1b3365",
-            "padding-left": "64px",
-            "padding-right": "64px",
+            "padding-left": "40px",
+            "padding-right": "40px",
             ":hover": {
               "background-color": "#2e57ac"
             },
@@ -244,8 +246,9 @@
           "variantTitle": false,
           "price": false,
           "description": false,
-          "buttonWithQuantity": false,
-          "quantity": false
+          "buttonWithQuantity": true,
+          "button": false,
+          "quantity": false,
         },
         "text": {
           "button": "BUY NOW"
@@ -255,13 +258,13 @@
             "@media (min-width: 601px)": {
               "max-width": "100%",
               "margin-left": "0",
-              "margin-bottom": "50px"
+              "margin-bottom": "40px"
             }
           },
           "button": {
             "background-color": "#1b3365",
-            "padding-left": "64px",
-            "padding-right": "64px",
+            "padding-left": "40px",
+            "padding-right": "40px",
             ":hover": {
               "background-color": "#2e57ac"
             },
@@ -323,7 +326,8 @@
           "img": false,
           "imgWithCarousel": true,
           "variantTitle": false,
-          "buttonWithQuantity": false,
+          "buttonWithQuantity": true,
+          "button": false,
           "quantity": false
         },
         "styles": {
@@ -336,8 +340,8 @@
           },
           "button": {
             "background-color": "#1b3365",
-            "padding-left": "64px",
-            "padding-right": "64px",
+            "padding-left": "40px",
+            "padding-right": "40px",
             ":hover": {
               "background-color": "#2e57ac"
             },
@@ -436,7 +440,7 @@
       "product": {
         "buttonDestination": "checkout",
         "variantId": "all",
-        "width": "240px",
+        "width": "260px",
         "contents": {
           "img": false,
           "imgWithCarousel": false,
@@ -444,7 +448,8 @@
           "variantTitle": false,
           "price": false,
           "description": false,
-          "buttonWithQuantity": false,
+          "buttonWithQuantity": true,
+          "button": false,
           "quantity": false
         },
         "text": {
@@ -455,13 +460,13 @@
             "@media (min-width: 601px)": {
               "max-width": "100%",
               "margin-left": "0",
-              "margin-bottom": "50px"
+              "margin-bottom": "40px"
             }
           },
           "button": {
             "background-color": "#1b3365",
-            "padding-left": "64px",
-            "padding-right": "64px",
+            "padding-left": "40px",
+            "padding-right": "40px",
             ":hover": {
               "background-color": "#2e57ac"
             },
@@ -521,8 +526,9 @@
           "img": false,
           "imgWithCarousel": true,
           "variantTitle": false,
-          "buttonWithQuantity": false,
-          "quantity": false
+          "buttonWithQuantity": true,
+          "button": false,
+          "quantity": false,
         },
         "styles": {
           "product": {
@@ -534,8 +540,8 @@
           },
           "button": {
             "background-color": "#1b3365",
-            "padding-left": "64px",
-            "padding-right": "64px",
+            "padding-left": "40px",
+            "padding-right": "40px",
             ":hover": {
               "background-color": "#2e57ac"
             },
@@ -573,7 +579,8 @@
             "font-weight": "normal"
           },
           "count": {
-            "font-size": "16px"
+            "font-size": "16px",
+            "display": "inline-block"
           }
         }
       },
