@@ -15,12 +15,7 @@ class RsvpController extends Controller
      */
     public function index()
     {
-        $allTimeslots = Timeslot::all();
-        $timeslots = $allTimeslots->filter(function($timeslot) {
-            return $timeslot->users()->count() > $timeslot->guest_limit;
-        });
-
-        return view('arvo-rsvp.blade.php', ['timeslots' => $timeslots]);
+        return view('arvo-rsvp');
     }
 
     /**
