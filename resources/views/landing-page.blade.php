@@ -96,13 +96,17 @@
         <div class="purchase">
             <div class="purchase__item">
                 <div class="purchase__description">
-                    <h4>Craft Coffee Tour</h4>
+                    <h4>
+                    <span class="small">Essential</span><br/>
+                    Craft Coffee Tour
+                    </h4>
                     <ul>
                         <li>Tour Guide Booklet</li>
-                        <li>14 of the Best Craft Coffee Experiences in Toronto</li>
+                        <li>13 of the Best Craft Coffee Experiences in Toronto</li>
                         <li>Audio Interviews</li>
                         <li>In-Depth Articles on the Craft</li>
                     </ul>
+                    <h5 class="yellow-bg padded-tiny"><i class="fa fa-truck" aria-hidden="true"></i> FREE SHIPPING</h5>
                 </div>
                 <div class="purchase__buy">
                     <span class="purchase__price"><sup>$</sup>27<sup>.95</sup><sub>(CAD)</sub></span>
@@ -120,13 +124,17 @@
             </div>
             <div class="purchase__item">
                 <div class="purchase__description">
-                    <h4>Craft Coffee Tour</h4>
+                    <h4>
+                    <span class="small">Extra</span><br/>
+                    Craft Coffee Tour
+                    </h4>
                     <ul>
                         <li>Tour Guide Booklet</li>
-                        <li>14 of the Best Craft Coffee Experiences in Toronto</li>
+                        <li>13 of the Best Craft Coffee Experiences in Toronto</li>
                         <li>Audio Interviews</li>
                         <li>In-Depth Articles on the Craft</li>
                     </ul>
+                    <h5 class="yellow-bg padded-tiny"><i class="fa fa-truck" aria-hidden="true"></i> FREE SHIPPING</h5>
                     <h4>PLUS</h4>
                     <ul>
                         <li><strong><i>33 Cups of Coffee</i> Booklet</strong></li>
@@ -148,13 +156,17 @@
             </div>
             <div class="purchase__item">
                 <div class="purchase__description">
-                    <h4>Craft Coffee Tour</h4>
+                    <h4>
+                    <span class="small">Ultimate</span><br/>
+                    Craft Coffee Tour
+                    </h4>
                     <ul>
                         <li>Tour Guide Booklet</li>
-                        <li>14 of the Best Craft Coffee Experiences in Toronto</li>
+                        <li>13 of the Best Craft Coffee Experiences in Toronto</li>
                         <li>Audio Interviews</li>
                         <li>In-Depth Articles on the Craft</li>
                     </ul>
+                    <h5 class="yellow-bg padded-tiny"><i class="fa fa-truck" aria-hidden="true"></i> FREE SHIPPING</h5>
                     <h4>PLUS</h4>
                     <ul>
                         <li><strong><i>33 Cups of Coffee</i> Booklet</strong></li>
