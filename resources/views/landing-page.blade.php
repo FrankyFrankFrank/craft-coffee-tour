@@ -114,12 +114,12 @@
                     @component('components.tour')
                     @endcomponent
                     </div>
-                    <div class="purchase__discount mt-sm pt-sm pb-sm">
+                    <!-- <div class="purchase__discount mt-sm pt-sm pb-sm">
                         <h4 class="mb-tiny mt-tiny">GET 15% OFF</h4>
                         <p class="mt-tiny mb-tiny">
                             The first 100 people to use the coupon code "<strong>IMEARLY</strong>" will get 15% off their tour!
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="purchase__item">
@@ -146,12 +146,12 @@
                         @component('components.tour-33')
                         @endcomponent
                     </div>
-                    <div class="purchase__discount mt-sm pt-sm pb-sm">
+                    <!-- <div class="purchase__discount mt-sm pt-sm pb-sm">
                         <h4 class="mb-tiny mt-tiny">GET 15% OFF</h4>
                         <p class="mt-tiny mb-tiny">
                             The first 100 people to use the coupon code "<strong>IMEARLY</strong>" will get 15% off their tour!
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="purchase__item">
@@ -185,12 +185,12 @@
                         @component('components.tour-33-trp')
                         @endcomponent
                     </div>
-                    <div class="purchase__discount mt-sm pt-sm pb-sm">
+                    <!-- <div class="purchase__discount mt-sm pt-sm pb-sm">
                         <h4 class="mb-tiny mt-tiny">GET 15% OFF</h4>
                         <p class="mt-tiny mb-tiny">
                             The first 100 people to use the coupon code "<strong>IMEARLY</strong>" will get 15% off their tour!
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
