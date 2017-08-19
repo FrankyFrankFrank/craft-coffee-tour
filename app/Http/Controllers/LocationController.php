@@ -47,12 +47,16 @@ class LocationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($shortname)
     {
-        $location = Location::find($id);
+        $location = Location::where('shortname', $shortname)->first();
+
+        if (!$location) {
+            return redirect()->route('landing');
+        }
         $podcast = $location->podcasts()->first();
 
-        return view('locations.show', ['location' => $location, 'podcast' => $podcast]);
+       return view('locations.show', ['location' => $location, 'podcast' => $podcast]);
     }
 
     /**
