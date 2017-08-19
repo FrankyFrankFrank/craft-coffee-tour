@@ -37,6 +37,7 @@
                     </iframe>
                 </div>
                 @endif
+                {{-- 
                 <h3 class="sr-only">Image Gallery</h3>
                 <div class="flex drk-blue-bg coffee-bg padded-lrg">
                 @foreach($images as $key => $img)
@@ -45,6 +46,7 @@
                     </a>
                 @endforeach
                 </div>
+                --}}
             </div>
             
         </div>
