@@ -20,11 +20,4 @@ Route::get('/locations/{id}', 'LocationController@show');
 Route::get('/rsvp', 'RsvpController@index');
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/{shortname}', function($shortname){
-	$location = App\Location::where('shortname', $shortname)->first();
-    if (!$location) {
-        return redirect()->route('landing');
-    }
-    $podcast = $location->podcasts()->first();
-   return view('locations.show', ['location' => $location, 'podcast' => $podcast]);
-});
+Route::get('/{shortname}', 'LocationController@show');

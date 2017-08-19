@@ -1,11 +1,22 @@
 .location {
 	&__info-card {
-		flex-basis: 200px;
+		flex-basis: 30%;
+		max-width: 360px;
+		flex-grow: 1;
 		flex-shrink: 1;
 	}
 
 	&__article {
 		flex-basis: 700px;
 		flex-shrink: 1;
+	}
+}
+
+@media (max-width: 600px) {
+	.location {
+		&__info-card {
+			flex-grow: 1;
+			width: 100%;
+		}
 	}
 }
