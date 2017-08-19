@@ -24,22 +24,23 @@
                 </div>
                 @endif
             </div>
-            <div class="white-bg mb-sm padded-med location__article">
-                <p>{{$location->article}}</p>
+            <div class="white-bg mb-sm location__article">
+                <p class="padded-med">{{$location->article}}</p>
 
                 @if(isset($podcast))
-                <iframe 
-                    width="100%" 
-                    height="60" 
-                    src="https://www.mixcloud.com/widget/iframe/?feed={{rawurlencode($podcast->src)}}&hide_cover=1&mini=1&light=1" 
-                    frameborder="0">
-                </iframe>
+                <div class="padded-sm yellow-bg">
+                    <iframe
+                        width="100%" 
+                        height="60" 
+                        src="https://www.mixcloud.com/widget/iframe/?feed={{rawurlencode($podcast->src)}}&hide_cover=1&mini=1&light=1" 
+                        frameborder="0">
+                    </iframe>
+                </div>
                 @endif
-
-                <h3>Image Gallery</h3>
-                <div class="flex">
+                <h3 class="sr-only">Image Gallery</h3>
+                <div class="flex drk-blue-bg coffee-bg padded-lrg">
                 @foreach($images as $key => $img)
-                    <a class="mr-sm mb-sm" href="{{ $img }}" target="_blank" />
+                    <a class="mr-sm mb-sm white-bg padded-tiny" href="{{ $img }}" target="_blank" />
                         <img class="image-thumb" src="{{ $img }}"/>
                     </a>
                 @endforeach

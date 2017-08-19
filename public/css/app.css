@@ -8350,6 +8350,10 @@ button.close {
   }
 }
 
+.coffee-bg {
+  background-image: url("/img/background-2.svg");
+}
+
 .yellow-bg {
   background-color: #ecb622;
 }
@@ -8775,7 +8779,6 @@ small,
   display: flex;
   overflow: hidden;
   background-color: #1b3365;
-  background-image: url("/img/background-2.svg");
 }
 
 .banner h1 {
