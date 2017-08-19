@@ -97,6 +97,24 @@
 	}
 }
 
+.margin- {
+	&tiny {
+		margin: .3rem;
+	}
+
+	&sm {
+		margin: 1rem;
+	}
+
+	&med {
+		margin: 2rem;
+	}
+
+	&lrg {
+		margin: 4rem;
+	}
+}
+
 .mt- {
 
 	&tiny {

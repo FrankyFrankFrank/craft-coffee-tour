@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 use App\Location;
 
@@ -50,13 +51,19 @@ class LocationController extends Controller
     public function show($shortname)
     {
         $location = Location::where('shortname', $shortname)->first();
+        $podcast = $location->podcasts()->first();
+        $images = $location->images();
 
         if (!$location) {
             return redirect()->route('landing');
         }
-        $podcast = $location->podcasts()->first();
 
-       return view('locations.show', ['location' => $location, 'podcast' => $podcast]);
+        return view('locations.show', [
+            'location' => $location,
+            'podcast' => $podcast,
+            'images' => $images
+        ]);
+
     }
 
     /**

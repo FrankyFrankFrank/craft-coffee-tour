@@ -8530,6 +8530,22 @@ small,
   padding-left: 4rem;
 }
 
+.margin-tiny {
+  margin: .3rem;
+}
+
+.margin-sm {
+  margin: 1rem;
+}
+
+.margin-med {
+  margin: 2rem;
+}
+
+.margin-lrg {
+  margin: 4rem;
+}
+
 .mt-tiny {
   margin-top: .3rem;
 }
@@ -8670,6 +8686,19 @@ small,
 
 .navbar-brand img {
   width: 150px;
+}
+
+.image-thumb {
+  height: 100px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.image-small {
+  width: 140px;
 }
 
 .inline-x {
@@ -9173,8 +9202,12 @@ small,
 }
 
 .location__info-card {
-  -ms-flex-preferred-size: 200px;
-      flex-basis: 200px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  max-width: 360px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   -ms-flex-negative: 1;
       flex-shrink: 1;
 }
@@ -9184,6 +9217,15 @@ small,
       flex-basis: 700px;
   -ms-flex-negative: 1;
       flex-shrink: 1;
+}
+
+@media (max-width: 600px) {
+  .location__info-card {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 100%;
+  }
 }
 
 .footer .logo {
