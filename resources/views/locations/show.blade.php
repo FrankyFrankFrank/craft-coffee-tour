@@ -37,16 +37,19 @@
                     </iframe>
                 </div>
                 @endif
-                {{-- 
-                <h3 class="sr-only">Image Gallery</h3>
-                <div class="flex drk-blue-bg coffee-bg padded-lrg">
-                @foreach($images as $key => $img)
-                    <a class="mr-sm mb-sm white-bg padded-tiny" href="{{ $img }}" target="_blank" />
-                        <img class="image-thumb" src="{{ $img }}"/>
-                    </a>
-                @endforeach
+                
+                @if($thumbs->count() > 0)
+                    <h3 class="sr-only">Image Gallery</h3>
+                    <div class="flex drk-blue-bg coffee-bg padded-lrg">
+                    @foreach($thumbs as $key => $thumb)
+                        <a class="mr-sm mb-sm white-bg padded-tiny" href="{{ $images[$key] }}" target="_blank" />
+                            <img class="image-thumb" src="{{ $thumb }}"/>
+                        </a>
+                    @endforeach
+                    </div>
                 </div>
-                --}}
+                @endif
+                
             </div>
             
         </div>
