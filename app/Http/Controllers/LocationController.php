@@ -53,6 +53,7 @@ class LocationController extends Controller
         $location = Location::where('shortname', $shortname)->first();
         $podcast = $location->podcasts()->first();
         $images = $location->images();
+        $thumbs = $location->thumbs();
 
         if (!$location) {
             return redirect()->route('landing');
@@ -61,7 +62,8 @@ class LocationController extends Controller
         return view('locations.show', [
             'location' => $location,
             'podcast' => $podcast,
-            'images' => $images
+            'images' => $images,
+            'thumbs' => $thumbs
         ]);
 
     }
