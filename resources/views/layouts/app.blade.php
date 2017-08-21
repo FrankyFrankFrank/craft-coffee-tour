@@ -47,7 +47,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('img/logo.svg') }}" alt="Dispute Bills">
+                        <img src="{{ asset('img/logo.svg') }}" alt="Craft Coffee Tour Logo">
                         <!-- {{ config('app.name', 'Laravel') }} -->
                     </a>
                 </div>
@@ -59,7 +59,9 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right text-uppercase lspace-med">
+                        <li><a href="/locations">Locations</a></li>
+                        <li><a class="btn yellow-bg">Buy</a></li>
                     </ul>
                 </div>
             </div>

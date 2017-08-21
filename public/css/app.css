@@ -8442,6 +8442,15 @@ small,
   font-weight: 600;
 }
 
+.text-uppercase,
+.initialism {
+  text-transform: uppercase;
+}
+
+.lspace-med {
+  letter-spacing: 1px;
+}
+
 .text-plain:hover {
   text-decoration: none;
 }
