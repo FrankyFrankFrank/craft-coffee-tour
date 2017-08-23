@@ -6,6 +6,7 @@
 	@extend .navbar-default;
 
 	margin-bottom: 0;
+	border-bottom: none;
 
 	&-brand {
 		img {
@@ -36,12 +37,10 @@
 
     			&.hover-tilt {
     				background-color: $yellow;
-    				transition: transform 0.1s;
 
     				&:hover {
-    					background-color: $blue;
+    					background-color: darken($yellow, 10%);
     					color: $white-med;
-    					transform: rotate(-3deg);
     				}
     			}
     		}

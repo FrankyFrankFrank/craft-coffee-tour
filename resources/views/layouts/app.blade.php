@@ -41,32 +41,38 @@
     @component('components.analytics')
     @endcomponent
     <div>
-        <nav class="navbar navbar-custom navbar-static-top">
+        <nav class="navbar navbar-custom navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-
-                    <!-- Branding Image -->
+                    <button 
+                        type="button" 
+                        class="navbar-toggle collapsed" 
+                        data-toggle="collapse" 
+                        data-target="#app-navbar-collapse" 
+                        aria-expanded="false"
+                    >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="{{ url('/') }}">
                         <img src="{{ asset('img/logo.svg') }}" alt="Craft Coffee Tour Logo">
-                        <!-- {{ config('app.name', 'Laravel') }} -->
                     </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right text-uppercase lspace-med">
                         <li><a href="/locations">Locations</a></li>
-                        <li><a class="hover-tilt">Buy</a></li>
+                        <li><a href="/#purchase" class="hover-tilt">Buy</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
+        <div class="light-grey-bg pt-med">
+        </div>
+        
         @yield('content')
 
         <div class="container-fluid footer">

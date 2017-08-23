@@ -8781,6 +8781,7 @@ small,
 
 .navbar {
   margin-bottom: 0;
+  border-bottom: none;
 }
 
 .navbar-brand img {
@@ -8805,17 +8806,11 @@ small,
 
 .navbar-custom .navbar-nav > li > a.hover-tilt {
   background-color: #ecb622;
-  -webkit-transition: -webkit-transform 0.1s;
-  transition: -webkit-transform 0.1s;
-  transition: transform 0.1s;
-  transition: transform 0.1s, -webkit-transform 0.1s;
 }
 
 .navbar-custom .navbar-nav > li > a.hover-tilt:hover {
-  background-color: #1b3365;
+  background-color: #ca9912;
   color: #e2e2e4;
-  -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
 }
 
 .navbar-custom .navbar-nav > .active > a {
