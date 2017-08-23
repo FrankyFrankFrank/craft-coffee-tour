@@ -41,6 +41,16 @@ small, .font_small {font-size: 0.75rem;}
   &bold {
     font-weight: 600;
   }
+
+  &uppercase {
+    text-transform: uppercase;
+  }
+}
+
+.lspace- {
+  &med {
+    letter-spacing: 1px;
+  }
 }
 
 .text-plain {

@@ -1,10 +1,80 @@
+.nav {
+	font-family: "acier-bat-solid", sans-serif;
+}
+
 .navbar {
+	@extend .navbar-default;
 
 	margin-bottom: 0;
+	border-bottom: none;
 
 	&-brand {
 		img {
 			width: 150px;
 		}
 	}
+}
+
+.navbar-custom {
+
+	@extend .navbar-default;
+
+    background-color: $white-max;
+    color: $blue;
+    border-radius:0;
+
+    .navbar-nav {
+
+    	> li {
+
+    		> a {
+    			color:$blue;
+
+    			&:hover, &:focus {
+					text-decoration: none;
+					background-color: $white-min;
+    			}
+
+    			&.hover-tilt {
+    				background-color: $yellow;
+
+    				&:hover {
+    					background-color: darken($yellow, 10%);
+    					color: $white-med;
+    				}
+    			}
+    		}
+    	}
+
+    	> .active {
+    		> a {
+				color: $grey-med;
+				background-color: $white-med;
+
+				&:hover, &:focus {
+					text-decoration: none;
+    				background-color: $white-min;
+				}
+    		}
+    	}
+
+    	> .open {
+    		> a {
+    			text-decoration: none;
+				background-color: $white-min;
+    		}
+    	}
+    }
+
+    .navbar-brand {
+    	color:#eeeeee;
+    }
+
+    .navbar-toggle {
+    	background-color:#eeeeee;
+    }
+
+    .icon-bar {
+    	background-color:#33aa33;
+    }
 }
