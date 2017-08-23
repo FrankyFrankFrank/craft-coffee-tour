@@ -41,7 +41,7 @@
     @component('components.analytics')
     @endcomponent
     <div>
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-custom navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
 
@@ -61,7 +61,7 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right text-uppercase lspace-med">
                         <li><a href="/locations">Locations</a></li>
-                        <li><a class="btn yellow-bg">Buy</a></li>
+                        <li><a class="hover-tilt">Buy</a></li>
                     </ul>
                 </div>
             </div>
