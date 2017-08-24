@@ -1,0 +1,38 @@
+// Palette
+
+// Colours
+$white-max: hsl(220, 5%, 95%);
+$white-med: hsl(220, 5%, 89%);
+$white-min: hsl(220, 5%, 83%); 
+
+$grey-med: hsl(220, 16%, 70%);
+$grey-dark: hsl(220, 2%, 34%);
+
+// Brand Colours
+$yellow: hsl(44, 84%, 53%);
+$yellow-dark: hsl(44, 85%, 45%);
+
+$blue: hsl(220, 58%, 25%);
+
+// Body
+$body-bg: $white-max;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: $blue;
+$brand-info: $blue;
+$brand-success: hsl(160, 65%, 38%);
+$brand-warning:$yellow;
+$brand-danger: #bf5329;
+
+// Navbar
+$navbar-default-bg: $white-max;
+
+// Panels
+$panel-default-heading-bg: $white-max;
