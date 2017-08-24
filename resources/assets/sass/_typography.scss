@@ -1,5 +1,11 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: hsl(220, 2%, 34%);
+
 h1, h2, h3, h4, h5, h6 {
-	color: $brand-primary;
+	color: $blue;
 	letter-spacing: 0.2rem;
 	font-family: "acier-bat-solid";
 }

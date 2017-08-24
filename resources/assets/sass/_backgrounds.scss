@@ -3,11 +3,7 @@
 }
 
 .yellow-bg {
-	background-color: hsl($yellow-hue, 84%, 53%);
-}
-
-.grey-bg {
-	background-color: hsl($blue-hue, 5%, 85%);
+	background-color: $yellow;
 }
 
 .white-bg {
@@ -16,8 +12,16 @@
 
 .light-grey-bg {
 	background-color: $white-med;
+} 
+
+.grey-bg {
+	background-color: $white-min;
 }
 
+.blue-bg {
+	background-color: $blue;
+};
+
 .drk-blue-bg {
-	background-color: $brand-primary;
+	background-color: $blue;
 }

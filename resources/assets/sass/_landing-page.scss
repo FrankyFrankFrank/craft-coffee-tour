@@ -1,7 +1,5 @@
 .banner {
-	display: flex;
 	overflow: hidden;
-	background-color: $brand-primary;
 
 	h1 {
 	    background: $white-max;
@@ -24,8 +22,9 @@
 	}
 
 	&__button {
-		padding: .7rem 2rem;
 		background-color: $yellow;
+		box-shadow: 1px 1px 4px darken($blue, 10%);
+		padding: .7rem 2rem;
 		color: $blue;
 
 		&:hover {
