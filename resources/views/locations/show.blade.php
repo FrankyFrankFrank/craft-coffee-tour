@@ -25,7 +25,7 @@
                 @endif
             </div>
             <div class="white-bg mb-sm location__article">
-                <p class="padded-med">{{$location->article}}</p>
+                <p class="padded-med">{!! $location->article !!}</p>
 
                 @if(isset($podcast))
                 <div class="padded-sm yellow-bg">
