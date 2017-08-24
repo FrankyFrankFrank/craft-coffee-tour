@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="banner coffee-bg container-fluid">
+<div class="banner coffee-bg container-fluid flex blue-bg">
     <div class="banner__message">
         <h1>The Ultimate Toronto Coffee Tasting</h1>
         <p class="medium text-center pt-lrg">
