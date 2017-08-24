@@ -8772,6 +8772,10 @@ small,
   background-color: #d1d3d6;
 }
 
+.blue-bg {
+  background-color: #1b3365;
+}
+
 .drk-blue-bg {
   background-color: #1b3365;
 }
@@ -8936,11 +8940,7 @@ small,
 }
 
 .banner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   overflow: hidden;
-  background-color: #1b3365;
 }
 
 .banner h1 {
@@ -8966,8 +8966,10 @@ small,
 }
 
 .banner__button {
-  padding: .7rem 2rem;
   background-color: #ecb622;
+  -webkit-box-shadow: 1px 1px 4px #101f3c;
+          box-shadow: 1px 1px 4px #101f3c;
+  padding: .7rem 2rem;
   color: #1b3365;
 }
 
