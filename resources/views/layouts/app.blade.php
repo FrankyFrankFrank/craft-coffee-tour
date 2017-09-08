@@ -16,6 +16,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
+    <!-- Typekit -->
+    <link rel="stylesheet" href="https://use.typekit.net/dkg1wjh.css">
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -124,9 +127,6 @@
     </div>
 
     <!-- Scripts -->
-    <script src="https://use.typekit.net/dkg1wjh.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
     <script src="{{ asset('js/app.js') }}"></script>
 
     <!-- Gleam -->
