@@ -39,10 +39,10 @@
     <!-- DO NOT MODIFY -->
     <!-- End Facebook Pixel Code -->
 
-</head>
-<body>
     @component('components.analytics')
     @endcomponent
+</head>
+<body>
     <div>
         <nav class="navbar navbar-custom navbar-fixed-top">
             <div class="container">
